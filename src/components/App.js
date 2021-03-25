@@ -24,7 +24,6 @@ function App() {
               <Route path="/forgot-password" component={ForgotPassword} />
               <Route path="/archives" component={Archives} />
               <Route path="/profile" component={Profile} />
-              
             </Switch>
           </AuthProvider>
         </Router>
