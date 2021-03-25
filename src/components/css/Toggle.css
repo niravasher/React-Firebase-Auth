@@ -1,0 +1,80 @@
+  .unselectable-text{
+    -webkit-user-select: none;
+    -webkit-touch-callout: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+
+  .my-toggle-btn-wrapper{
+    text-align: center;
+  }
+  .my-toggle-btn{
+    cursor: pointer;
+    display: inline-block;
+  }
+  /* .my-toggle-btn input[type=checkbox]{
+    display: none;
+  } */
+  .my-toggle-btn input[id=checkbox2]{
+    display: none;
+  }
+  .my-toggle-btn input[id=checkbox1]{
+    display: none;
+  }
+  .my-toggle-btn input[id=checkbox3]{
+    display: none;
+  }
+  .my-toggle-btn label{
+      background: #f44336;
+      color: #fff;
+      width: 120px;
+      height: 34px;
+      font-family: 'Roboto Slab', serif;
+      font-size: 22px;
+      display: inline-block;
+      border-radius: 1px;
+      position: relative;
+      text-align: center;
+      transition: all .4s ease;
+      cursor: pointer;
+  }
+  .my-toggle-btn label:before{
+      content: '';
+      position: absolute;
+      height: 34px;
+      width: 25px;
+      background: #444;
+      left: 2px;
+      top: -1px;
+      transition: left 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275), padding 0.3s ease, margin 0.3s ease;
+  }
+  .my-toggle-btn input[type=checkbox]:checked + label:before{
+    left: 92px;
+    transition: left 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275), padding 0.3s ease, margin 0.3s ease;
+  }
+  .my-toggle-btn input[type=checkbox]:checked + label span.off{
+    display: none;
+  }
+  .my-toggle-btn input[type=checkbox]:checked + label span.on{
+    display: inline;
+  }
+  .my-toggle-btn input[type=checkbox] + label span.on{
+    display: none;
+  }
+  .my-toggle-btn input[type=checkbox] + label span.off{
+    display: inline;
+  }
+  
+  .my-toggle-btn input[type=checkbox]:checked + label{
+    background: #4caf50;
+  }
+  .progress-bar-css1{
+    height:10px;
+    
+  }
+  .progress-bar-css2{
+    width:50%;
+    background-color: yellow;
+
+  }
