@@ -41,19 +41,19 @@ export default function Dashboard() {
           Log Out
         </Button>
       </div> */}
-     
+     <div className="set">
       <div className="row">
-        <div className="col-lg-12 col-md-12 col-sm-12 text-center bg-info">
+        <div className="col-lg-12 col-md-12 col-sm-12 text-center">
           <Navbar />
         </div>
       </div>
       <div className="row bg-new3">
-        <div className="col-lg-1 col-md-3 col-sm-1 text-center bg-info text-center bg-new2 dashboard1 ">
+        <div className="col-lg-1 col-md-2 col-sm-2 text-center text-center bg-new2 dashboard1">
           <NavIcons />
         </div>
-        <div className="col-lg-8 col-md-8 col-sm-11 text-left my-4">
+        <div className="col-lg-8 col-md-6 col-sm-6 text-left my-4">
           {
-          <h4 className="mx-5">Welcome {currentUser.email}</h4>
+          // <h4 className="mx-5">Welcome {currentUser.email}</h4>
           }
           <DashCard />
         </div>
@@ -61,6 +61,7 @@ export default function Dashboard() {
           <Demographics />
         </div>
       </div>
+      </div>  
     </>
   )
 }
