@@ -33,15 +33,13 @@ export default function Signup() {
 
   return (
     <>
-      <div className="container">
+      <div className="container-fluid full-height bg-new3">
         <div className="row">
           <div className="col-sm-9 col-md-7 col-lg-6 mx-auto">
-            <div className="card card-signin my-5">
-              <p className="text-center">
-                Already have an account? <Link to="/login">Login</Link>
-              </p>
+            <div className="border1 card shadow-lg card-signin my-5">
+              
               <div className="card-body">
-                <h5 className="card-title text-center">Sign Up</h5>
+                <h1 className="card-title text-center">Sign Up</h1>
                 <form className="form-signup" onSubmit={handleSubmit}>
                   <div className="form-label-group">
                     <label htmlFor="inputEmail">Email address</label>
@@ -49,7 +47,7 @@ export default function Signup() {
                       type="email"
                       id="email"
                       ref={emailRef}
-                      className="form-control"
+                      className="border1 shadow-sm  form-control"
                       placeholder="Email address"
                       required
                     />
@@ -61,7 +59,7 @@ export default function Signup() {
                       type="password"
                       id="password"
                       ref={passwordRef}
-                      className="form-control"
+                      className="border1 shadow-sm form-control"
                       placeholder="Password"
                       required
                     />
@@ -73,7 +71,7 @@ export default function Signup() {
                       type="password"
                       id="confirmpassword"
                       ref={passwordConfirmRef}
-                      className="form-control"
+                      className="border1 shadow-sm form-control"
                       placeholder="Confirm Password"
                       required
                     />
@@ -86,13 +84,13 @@ export default function Signup() {
                       id="customCheck1"
                     />
                   </div>
-                  <button
-                    className="btn btn-lg btn-primary btn-block text-uppercase"
-                    type="submit"
-                  >
+                  <button className="border1 btn shadow btn-lg btn-primary btn-block text-uppercase" type="submit">
                     Sign Up
                   </button>
                 </form>
+                <p className="text-center my-4 ">
+                Already have an account? <Link to="/login">Login</Link>
+              </p>
               </div>
             </div>
           </div>
