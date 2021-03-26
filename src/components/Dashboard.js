@@ -51,13 +51,13 @@ export default function Dashboard() {
         <div className="col-lg-1 col-md-3 col-sm-1 text-center bg-info text-center bg-new2 dashboard1 ">
           <NavIcons />
         </div>
-        <div className="col-lg-8 col-md-8 col-sm-11 text-left my-4">
+        <div className="col-lg-7 col-md-7 col-sm-11 text-left my-4">
           {
           <h4 className="mx-5">Welcome {currentUser.email}</h4>
           }
           <DashCard />
         </div>
-        <div className="col-lg-3 col-md-3 col-sm-12 text-left">
+        <div className="col-lg-4 col-md-4 col-sm-12 text-left">
           <Demographics />
         </div>
       </div>
