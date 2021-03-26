@@ -26,27 +26,27 @@
     display: none;
   }
   .my-toggle-btn label{
-      background: #f44336;
-      color: #fff;
+      background: rgba(218,219,219,255);
+      color: #000;
       width: 120px;
       height: 34px;
-      font-family: 'Roboto Slab', serif;
       font-size: 22px;
       display: inline-block;
-      border-radius: 1px;
+      border-radius: 20px;
       position: relative;
       text-align: center;
       transition: all .4s ease;
       cursor: pointer;
   }
   .my-toggle-btn label:before{
+    border-radius: 20px;
       content: '';
       position: absolute;
-      height: 34px;
+      height: 30px;
       width: 25px;
       background: #444;
       left: 2px;
-      top: -1px;
+      top: 1px;
       transition: left 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275), padding 0.3s ease, margin 0.3s ease;
   }
   .my-toggle-btn input[type=checkbox]:checked + label:before{
@@ -67,7 +67,7 @@
   }
   
   .my-toggle-btn input[type=checkbox]:checked + label{
-    background: #4caf50;
+    background: rgba(147,211,68,255);
   }
   .progress-bar-css1{
     height:10px;

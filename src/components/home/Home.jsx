@@ -6,25 +6,25 @@ import '../css/home.css';
 const Home = () => {
   return (
     <>
-      <div class="header">
-        <div class="container header__container">
-          <div class="header__logo">
-          <img className="header__img" src={logo} width="100" height="60" />
+      <div className="header">
+        <div className="container header__container">
+          <div className="header__logo">
+          <img className="header__img" src={logo} width="100" height="60" alt="" />
           </div>
         </div>
       </div>
-      <div class="sect sect--padding-top">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-12">
-              <div class="site">
-                <h1 class="site__title">Simplifying Medical Reports</h1>
-                <h2 class="site__subtitle">NirogGyan makes lab tests engaging so that you understand your health better, with visual SmartReports.</h2>
-                <div class="site__box-link">
-                  <Link class="login-btn btn btn--width" to="/login">Login</Link>
-                  <Link class="signup-btn btn btn--revert btn--width" to="/signup">Signup</Link>
+      <div className="sect sect--padding-top">
+        <div className="container">
+          <div className="row">
+            <div className="col-md-12">
+              <div className="site">
+                <h1 className="site__title">Simplifying Medical Reports</h1>
+                <h2 className="site__subtitle">NirogGyan makes lab tests engaging so that you understand your health better, with visual SmartReports.</h2>
+                <div className="site__box-link">
+                  <Link className="login-btn btn btn--width" to="/login">Login</Link>
+                  <Link className="signup-btn btn btn--revert btn--width" to="/signup">Signup</Link>
                 </div>
-                <img class="site__img" src="https://niroggyan.com/images/detailed-covid-19-report.png" />
+                <img className="site__img" src="https://niroggyan.com/images/detailed-covid-19-report.png" alt="" />
               </div>
             </div>
           </div>

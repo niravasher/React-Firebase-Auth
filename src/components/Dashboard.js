@@ -1,7 +1,7 @@
 import React, { useState } from "react"
 // import { Card, Button, Alert } from "react-bootstrap"
 import { useAuth } from "../contexts/AuthContext"
-import { Link, useHistory } from "react-router-dom"
+import { useHistory } from "react-router-dom"
 import NavIcons from "./common/NavIcons";
 import Navbar from "./routes/Navbar";
 import DashCard from "./dashboard/Cards.jsx";
@@ -9,8 +9,8 @@ import './css/style.css';
 import Demographics from "./dashboard/Demographics";
 
 export default function Dashboard() {
-  const [error, setError] = useState("")
-  const { currentUser, logout } = useAuth()
+  const [setError] = useState("")
+  const { logout } = useAuth()
   const history = useHistory()
 
   async function handleLogout() {

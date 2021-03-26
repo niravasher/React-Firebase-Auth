@@ -85,35 +85,35 @@ const Demographics = () => {
               <div className="form-group text-center ">
                 <h6><label className="form-label-check unselectable-text">Age Range</label></h6>
               </div>
-              <div class="my-toggle-btn-wrapper form-group" >
-                  <div class="my-toggle-btn" >
+              <div className="my-toggle-btn-wrapper form-group">
+                  <div className="my-toggle-btn">
                     <input type="checkbox" id="checkbox1" value="1-4" onChange={handleChange} />
-                    <label for="checkbox1" >
-                      <span class="on unselectable-text">1-4</span>
-                      <span class="off unselectable-text">1-4</span>
+                    <label htmlFor="checkbox1" className="labelToggle">
+                      <span className="on unselectable-text">1-4</span>
+                      <span className="off unselectable-text">1-4</span>
                     </label>
                   </div>
               </div>
-              <div class="my-toggle-btn-wrapper form-group" >
-                  <div class="my-toggle-btn" >
+              <div className="my-toggle-btn-wrapper form-group">
+                  <div className="my-toggle-btn">
                     <input type="checkbox" id="checkbox2" value="5-7" onChange={handleChange} />
-                    <label for="checkbox2" >
-                      <span class="on unselectable-text">5-7</span>
-                      <span class="off unselectable-text">5-7</span>
+                    <label htmlFor="checkbox2">
+                      <span className="on unselectable-text">5-7</span>
+                      <span className="off unselectable-text">5-7</span>
                     </label>
                   </div>
               </div>
-              <div class="my-toggle-btn-wrapper form-group" >
-                  <div class="my-toggle-btn" >
+              <div className="my-toggle-btn-wrapper form-group">
+                  <div className="my-toggle-btn">
                     <input type="checkbox" id="checkbox3" value="8-10" onChange={handleChange} />
-                    <label for="checkbox3" >
-                      <span class="on unselectable-text">8-10</span>
-                      <span class="off unselectable-text">8-10</span>
+                    <label htmlFor="checkbox3">
+                      <span className="on unselectable-text">8-10</span>
+                      <span className="off unselectable-text">8-10</span>
                     </label>
                   </div>
                </div>
             </div>
-            <div className="col-lg-8 text-center "> 
+            <div className="col-lg-8 text-center"> 
               <div className="text-center">
                 <h6><label className="form-label-check unselectable-text">Gender</label></h6>
               </div>
