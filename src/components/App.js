@@ -9,6 +9,7 @@ import ForgotPassword from "./ForgotPassword"
 import UpdateProfile from "./UpdateProfile"
 import Archives from './routes/Archives'
 import Profile from './routes/Profile'
+import Home from './home/Home'
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
               <Route path="/forgot-password" component={ForgotPassword} />
               <Route path="/archives" component={Archives} />
               <Route path="/profile" component={Profile} />
+              <Route exact path="/" component={Home} />
             </Switch>
           </AuthProvider>
         </Router>
