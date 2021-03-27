@@ -1,7 +1,6 @@
 import React, { useRef, useState } from "react";
 import { useAuth } from "../contexts/AuthContext";
 import { Link, useHistory } from "react-router-dom";
-import './css/style.css'
 
 export default function Login() {
   const emailRef = useRef();
@@ -28,7 +27,7 @@ export default function Login() {
 
   return (
     <>
-      <div className="container-fluid full-height bg-new3">
+      <div className="container-fluid bg-new3">
         <div className="row">
           <div className="col-sm-9 col-md-8 col-lg-6 mx-auto">
             <div className="card border1 shadow-lg card-signin my-5">

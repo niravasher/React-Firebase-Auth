@@ -1,6 +1,4 @@
 import React, { useState, Component } from "react";
-import { VscLocation } from "react-icons/vsc";
-import { FaMale, FaFemale } from "react-icons/fa";
 import "../css/Toggle.css";
 import axios from "axios";
 import ProgressBar from "@ramonak/react-progress-bar";
@@ -8,77 +6,132 @@ import ProgressBar from "@ramonak/react-progress-bar";
 class Demographics extends Component {
   state = {
     jsondata: [],
-    percentvalid: 0
-  }
+    percentvalid: 0,
+  };
   componentDidMount() {
-    axios.get('https://my-json-server.typicode.com/harsh-singhal7385/json-data-practice/db')
-      .then(res => {
+    axios
+      .get(
+        "https://my-json-server.typicode.com/harsh-singhal7385/json-data-practice/db"
+      )
+      .then((res) => {
         console.log(res);
         this.setState({
-          jsondata: res.data.age_gender_data
-        })
-      })
+          jsondata: res.data.age_gender_data,
+        });
+      });
   }
 
   handleChange = () => {
     var { jsondata } = this.state;
     var totalLen = jsondata.length;
     var valid = 0;
-    var c1 = document.getElementById('checkbox1');
-    var c2 = document.getElementById('checkbox2');
-    var c3 = document.getElementById('checkbox3');
+    var c1 = document.getElementById("checkbox1");
+    var c2 = document.getElementById("checkbox2");
+    var c3 = document.getElementById("checkbox3");
+    var c4 = document.getElementById("checkbox4");
+    var c5 = document.getElementById("checkbox5");
 
-    if (c1.checked) {
-      for (var i = 0 ; i < jsondata.length ; i++) {
-        if (jsondata[i].age >= 1 && jsondata[i].age <= 4) {
+    if (!c1.checked && !c2.checked && !c3.checked) {
+      for (var i = 0; i < jsondata.length; i++) {
+        if (c4.checked && c5.checked) {
           valid++;
+        } else if (c4.checked && !c5.checked) {
+          if (jsondata[i].gender === "male") {
+            valid++;
+          }
+        } else if (!c4.checked && c5.checked) {
+          if (jsondata[i].gender === "female") {
+            valid++;
+          }
+        } else {
+          valid = 0;
+        }
+      }
+    } else {
+      if (c1.checked) {
+        for (var i = 0; i < jsondata.length; i++) {
+          if (jsondata[i].age >= 1 && jsondata[i].age <= 4) {
+            if (c4.checked && c5.checked) {
+              valid++;
+            } else if (c4.checked && !c5.checked) {
+              if (jsondata[i].gender === "male") {
+                valid++;
+              }
+            } else if (!c4.checked && c5.checked) {
+              if (jsondata[i].gender === "female") {
+                valid++;
+              }
+            } else {
+              valid++;
+            }
+          }
+        }
+      }
+
+      if (c2.checked) {
+        for (i = 0; i < jsondata.length; i++) {
+          if (jsondata[i].age >= 5 && jsondata[i].age <= 7) {
+            if (c4.checked && c5.checked) {
+              valid++;
+            } else if (c4.checked && !c5.checked) {
+              if (jsondata[i].gender === "male") {
+                valid++;
+              }
+            } else if (!c4.checked && c5.checked) {
+              if (jsondata[i].gender === "female") {
+                valid++;
+              }
+            } else {
+              valid++;
+            }
+          }
+        }
+      }
+
+      if (c3.checked) {
+        for (i = 0; i < jsondata.length; i++) {
+          if (jsondata[i].age >= 8 && jsondata[i].age <= 10) {
+            if (c4.checked && c5.checked) {
+              valid++;
+            } else if (c4.checked && !c5.checked) {
+              if (jsondata[i].gender === "male") {
+                valid++;
+              }
+            } else if (!c4.checked && c5.checked) {
+              if (jsondata[i].gender === "female") {
+                valid++;
+              }
+            } else {
+              valid++;
+            }
+          }
         }
       }
     }
 
-    if (c2.checked) {
-      for (var i = 0 ; i < jsondata.length ; i++) {
-        if (jsondata[i].age >= 5 && jsondata[i].age <= 7) {
-          valid++;
-        }
-      }
-    }
-
-    if (c3.checked) {
-      for (var i = 0 ; i < jsondata.length ; i++) {
-        if (jsondata[i].age >= 8 && jsondata[i].age <= 10) {
-          valid++;
-        }
-      }
-    }
-    // console.log(valid);
     var percent = (valid * 100) / totalLen;
     this.setState({
-      percentvalid: percent
-    })
+      percentvalid: percent,
+    });
   };
 
   render() {
     return (
       <>
-        <div className="container">
+        <div className="container fontchange">
           <div className="container">
             <div className="row">
               <div className="col text-center">
                 <h3>
-                  <label className="unselectable-text">
-                    Demographics
-                  </label>
+                  <label className="unselectable-text">Statistics</label>
                 </h3>
               </div>
             </div>
             <div className="row">
               <div className="col-lg-4">
-                <div className="text-center ">
+                <div className="text-center">
                   <h6>
-                    <label className="unselectable-text">
-                      Age Range
-                    </label>
+                    <label className="unselectable-text">Age Range</label>
                   </h6>
                 </div>
                 <div className="my-toggle-btn-wrapper">
@@ -90,8 +143,8 @@ class Demographics extends Component {
                       onChange={this.handleChange}
                     />
                     <label htmlFor="checkbox1" className="labelToggle">
-                      <span className="on unselectable-text">1-4</span>
-                      <span className="off unselectable-text">1-4</span>
+                      <span className="on h6">1 - 4</span>
+                      <span className="off h6">1 - 4</span>
                     </label>
                   </div>
                 </div>
@@ -104,8 +157,8 @@ class Demographics extends Component {
                       onChange={this.handleChange}
                     />
                     <label htmlFor="checkbox2">
-                      <span className="on unselectable-text">5-7</span>
-                      <span className="off unselectable-text">5-7</span>
+                      <span className="on h6">5 - 7</span>
+                      <span className="off h6">5 - 7</span>
                     </label>
                   </div>
                 </div>
@@ -118,8 +171,8 @@ class Demographics extends Component {
                       onChange={this.handleChange}
                     />
                     <label htmlFor="checkbox3">
-                      <span className="on unselectable-text">8-10</span>
-                      <span className="off unselectable-text">8-10</span>
+                      <span className="on h6">8 - 10</span>
+                      <span className="off h6">8 - 10</span>
                     </label>
                   </div>
                 </div>
@@ -128,38 +181,42 @@ class Demographics extends Component {
                 <div className="row">
                   <div className="col">
                     <h6>
-                      <label className="unselectable-text">
-                        Male
-                      </label>
+                      <label className="unselectable-text">Male</label>
                     </h6>
                   </div>
                   <div className="col">
                     <h6>
-                      <label className="unselectable-text">
-                        Female
-                      </label>
+                      <label className="unselectable-text">Female</label>
                     </h6>
                   </div>
                 </div>
                 <div className="row">
                   <div className="col">
                     <div onClick={this.handleChange} className="demographics1 ">
-                      <img src="https://img.icons8.com/offices/80/000000/person-male-skin-type-4.png"/>
+                      <img
+                        className="checkmark"
+                        src="https://img.icons8.com/offices/80/000000/person-male-skin-type-4.png"
+                        alt=""
+                      />
                       <input
-                        type="checkbox"
                         id="checkbox4"
-                        style={{ display: "none" }}
+                        type="checkbox"
+                        className="checkbox"
                         onChange={this.handleChange}
                       />
                     </div>
                   </div>
                   <div className="col">
                     <div onClick={this.handleChange} className="demographics1 ">
-                      <img src="https://img.icons8.com/officel/80/000000/person-female.png"/>
+                      <img
+                        className="checkmark"
+                        src="https://img.icons8.com/officel/80/000000/person-female.png"
+                        alt=""
+                      />
                       <input
-                        type="checkbox5"
                         id="checkbox5"
-                        style={{ display: "none" }}
+                        type="checkbox"
+                        className="checkbox"
                         onChange={this.handleChange}
                       />
                     </div>
@@ -182,7 +239,12 @@ class Demographics extends Component {
               <div className="col-lg-1"></div>
               <div className="col-lg-10">
                 <div>
-                  <ProgressBar completed={this.state.percentvalid} height="20px" bgcolor="orange" labelColor="#000" />
+                  <ProgressBar
+                    completed={this.state.percentvalid}
+                    height="20px"
+                    bgcolor="orange"
+                    labelColor="#000"
+                  />
                 </div>
               </div>
               <div className="col-lg-1"></div>
