@@ -31,7 +31,7 @@ export default function Dashboard() {
         </div>
       </div>
       <div className="row bg-new3">
-        <div className="col-lg-7 col-md-7 col-sm-11 text-left my-4">
+        <div className="col-lg-7 col-md-7 col-sm-12 text-left my-4">
           {
           // <h4 className="mx-5">Welcome {currentUser.email}</h4>
           }

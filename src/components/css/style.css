@@ -1,7 +1,7 @@
-.navb{
-    width:100vw;
-    overflow:hidden;
+body {
+    overflow-x: hidden;
 }
+
 .bg-new{
     background-color:rgb(255, 153, 0);
 }
@@ -10,4 +10,34 @@
 }
 .set{
     overflow: hidden;
+}
+
+.flexcard {
+    width: 50%;
+}
+
+.bottom_left {
+    background: rgb(222, 219, 4);
+}
+
+.th {
+    width: 2vw;
+}
+
+.thfirst {
+    width: 10vw;
+}
+
+.phalf {
+    padding: 1px 5px 1px 5px;
+    box-shadow: 1px 1px 1px #888888;
+    border-radius: 2px;
+}
+
+table {
+    box-shadow: 3px 3px 5px #eee;
+}
+
+.table-bordered > tbody > tr > td, .table-bordered > tbody > tr > th, .table-bordered > tfoot > tr > td, .table-bordered > tfoot > tr > th, .table-bordered > thead > tr > td, .table-bordered > thead > tr > th {
+    border: 1px solid lightgrey;
 }

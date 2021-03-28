@@ -10,7 +10,7 @@ const DashCard = () => {
     return (
         <div className="container">
             <div className="row">
-            <div className="mb-4 col-lg-3 col-sm-12">
+                <div className="mb-4 col-lg-3 col-md-5 col-sm-6 flexcard">
                     <div className="card">
                         <div className="card-body text-center">
                             <Blood />
@@ -19,7 +19,7 @@ const DashCard = () => {
                         </div>
                     </div>
                 </div>
-                <div className="mb-4 col-lg-3 col-sm-12">
+                <div className="mb-4 col-lg-3 col-md-5 col-sm-6 flexcard">
                     <div className="card">
                         <div className="card-body text-center">
                             <BP />
@@ -28,7 +28,7 @@ const DashCard = () => {
                         </div>
                     </div>
                 </div>
-                <div className="mb-4 col-lg-3 col-md-6 col-sm-12">
+                <div className="mb-4 col-lg-3 col-md-5 col-sm-6 flexcard">
                     <div className="card">
                         <div className="card-body text-center">
                             <HT />
@@ -37,7 +37,7 @@ const DashCard = () => {
                         </div>
                     </div>
                 </div>
-                <div className="mb-4 col-lg-3 col-md-6 col-sm-12">
+                <div className="mb-4 col-lg-3 col-md-5 col-sm-6 flexcard">
                     <div className="card">
                         <div className="card-body text-center">
                             <WT />
