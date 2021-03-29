@@ -2,13 +2,10 @@ body {
     overflow-x: hidden;
 }
 
-<<<<<<< HEAD
 .navIcon{  
     line-height:0%;
     transform: translate(-12%, 10%);
 }
-=======
->>>>>>> 5daf442fa2170b4dfb2a32e3e1724cbf156cca90
 .bg-new{
     background-color:rgb(255, 153, 0);
 }
@@ -30,7 +27,6 @@ body {
 .set{
     overflow: hidden;
 }
-<<<<<<< HEAD
 .footer1{
     position:relative;
     left: 0;
@@ -67,7 +63,6 @@ body {
   }
 
 
-=======
 
 .flexcard {
     width: 50%;
@@ -98,4 +93,3 @@ table {
 .table-bordered > tbody > tr > td, .table-bordered > tbody > tr > th, .table-bordered > tfoot > tr > td, .table-bordered > tfoot > tr > th, .table-bordered > thead > tr > td, .table-bordered > thead > tr > th {
     border: 1px solid lightgrey;
 }
->>>>>>> 5daf442fa2170b4dfb2a32e3e1724cbf156cca90
