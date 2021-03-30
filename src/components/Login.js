@@ -1,6 +1,7 @@
 import React, { useRef, useState } from "react";
 import { useAuth } from "../contexts/AuthContext";
 import { Link, useHistory } from "react-router-dom";
+import { Form, Alert } from "react-bootstrap"
 
 export default function Login() {
   const emailRef = useRef();
@@ -19,7 +20,8 @@ export default function Login() {
       await login(emailRef.current.value, passwordRef.current.value);
       history.push("/dashboard");
     } catch {
-      setError("Failed to log in");
+
+      setError("Failed to log in please check your credentials !!");
     }
 
     setLoading(false);
@@ -27,12 +29,17 @@ export default function Login() {
 
   return (
     <>
+
       <div className="container-fluid bg-new3">
         <div className="row">
           <div className="col-sm-9 col-md-8 col-lg-6 mx-auto">
             <div className="card border1 shadow-lg card-signin my-5">
-             
+
               <div className="card-body">
+                <div id="alert1">
+                  {error && <Alert variant="danger">{error}</Alert>}
+                  <Form onSubmit={handleSubmit} />
+                </div>
                 <h1 className="card-title text-center">Sign In</h1>
                 <form className="form-signin" onSubmit={handleSubmit}>
                   <div className="form-label-group">
@@ -74,8 +81,8 @@ export default function Login() {
                   <Link to="/forgot-password">Forgot Password?</Link>
                 </div>
                 <p className="text-center my-4">
-                Don't have an account? <Link to="/signup">Register</Link>
-              </p>
+                  Don't have an account? <Link to="/signup">Register</Link>
+                </p>
               </div>
             </div>
           </div>

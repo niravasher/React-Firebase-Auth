@@ -10,13 +10,13 @@ return (
 
     <div className="card text-center footer1 h-10">
   <div className="card-body">
-  <button type="button" className="btn btn-xl bg-new5 "><a href="https://www.facebook.com/niroggyan/"><div className="form-group navIcon"><FaFacebookF size="20px" color="white" /></div></a></button>
-  <button type="button" className="btn btn-xl bg-new7"  ><a href="https://medium.com/@niroggyan_smart_reports"><div className="form-group navIcon"><FaMediumM size="20px" color="white" /></div></a></button>
-  <button type="button" className="btn btn-xl bg-new6"  ><a href="https://www.instagram.com/niroggyan_reports/?hl=en"><div className="form-group navIcon "><FaInstagram size="22px" color="white" /></div></a></button>
-  <button type="button" className="btn btn-xl bg-new4"  ><a href="https://www.linkedin.com/company/niroggyan"><div className="form-group navIcon "><FaLinkedinIn size="20px" color="white" /></div></a></button>
+  <button type="button" className="btn btn-xl bg-new5 "><a target="_blank" href="https://www.facebook.com/niroggyan/"><div className="form-group navIcon"><FaFacebookF size="20px" color="white" /></div></a></button>
+  <button type="button" className="btn btn-xl bg-new7"  ><a target="_blank" href="https://medium.com/@niroggyan_smart_reports"><div className="form-group navIcon"><FaMediumM size="20px" color="white" /></div></a></button>
+  <button type="button" className="btn btn-xl bg-new6"  ><a target="_blank" href="https://www.instagram.com/niroggyan_reports/?hl=en"><div className="form-group navIcon "><FaInstagram size="22px" color="white" /></div></a></button>
+  <button type="button" className="btn btn-xl bg-new4"  ><a target="_blank" href="https://www.linkedin.com/company/niroggyan"><div className="form-group navIcon "><FaLinkedinIn size="20px" color="white" /></div></a></button>
   </div>
   <div className="card-footer text-muted footer2">
-    <p className="changecolor">@niroggyan</p>
+    <p className="changecolor">Copyright 2020 © NirogGyan All rights reserved | Privacy Policy | Terms & Conditions</p>
   </div>
 </div>
     

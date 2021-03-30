@@ -9,6 +9,14 @@ class Demographics extends Component {
     percentvalid: 0,
   };
   componentDidMount() {
+    var c1 = document.getElementById("checkbox1");
+    var c2 = document.getElementById("checkbox2");
+    var c3 = document.getElementById("checkbox3");
+    var c4 = document.getElementById("checkbox4");
+    var c5 = document.getElementById("checkbox5");
+    c5.checked="true";
+    c3.checked="true";
+    
     axios
       .get(
         "https://my-json-server.typicode.com/harsh-singhal7385/json-data-practice/db"
@@ -18,6 +26,8 @@ class Demographics extends Component {
         this.setState({
           jsondata: res.data.age_gender_data,
         });
+        this.handleChange();
+        
       });
   }
 
@@ -30,6 +40,7 @@ class Demographics extends Component {
     var c3 = document.getElementById("checkbox3");
     var c4 = document.getElementById("checkbox4");
     var c5 = document.getElementById("checkbox5");
+
 
     if (!c1.checked && !c2.checked && !c3.checked) {
       for (var i = 0; i < jsondata.length; i++) {
@@ -169,6 +180,7 @@ class Demographics extends Component {
                       id="checkbox3"
                       value="8-10"
                       onChange={this.handleChange}
+                      
                     />
                     <label htmlFor="checkbox3">
                       <span className="on h6">8 - 10</span>
@@ -217,6 +229,8 @@ class Demographics extends Component {
                         id="checkbox5"
                         type="checkbox"
                         className="checkbox"
+                       
+                        //onLoad={this.handleChange}
                         onChange={this.handleChange}
                       />
                     </div>
