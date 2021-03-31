@@ -2,13 +2,10 @@ body {
     overflow-x: hidden;
 }
 
-<<<<<<< HEAD
 .navIcon{  
     line-height:0%;
     transform: translate(-12%, 10%);
 }
-=======
->>>>>>> 5daf442fa2170b4dfb2a32e3e1724cbf156cca90
 .bg-new{
     background-color:rgb(255, 153, 0);
 }
