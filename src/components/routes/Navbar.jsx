@@ -38,22 +38,22 @@ export default function Navbar() {
           <ul className="navbar-nav ml-auto">
 
             <li className="nav-item">
-              <button type="button" className="btn btn-warning ml-2">
+              <button type="button" className="btn btn-warning custom-class ml-2 my-1">
                 <Link to="/dashboard" className="text-white text-decoration-none">Dashboard</Link>
               </button>
             </li>
             <li className="nav-item">
-              <button type="button" className="btn btn-warning ml-2">
+              <button type="button" className="btn btn-warning custom-class ml-2 my-1">
                 <Link to="/archives" className="text-white text-decoration-none">Archives</Link>
               </button>
             </li>
             <li className="nav-item">
-              <button type="button" className="btn btn-warning ml-2">
+              <button type="button" className="btn btn-warning custom-class ml-2 my-1">
                 <Link to="/profile" className="text-white text-decoration-none">Profile</Link>
               </button>
             </li>
             <li className="nav-item">
-              <button type="button" className="btn btn-warning ml-2 text-white" onClick={handleLogout}>
+              <button type="button" className="btn btn-warning custom-class ml-2 text-white my-1" onClick={handleLogout}>
                 Logout
               </button>
             </li>

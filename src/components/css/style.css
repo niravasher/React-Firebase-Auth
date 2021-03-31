@@ -62,8 +62,6 @@ body {
     display: block!important;
   }
 
-
-
 .flexcard {
     width: 50%;
 }
@@ -93,3 +91,30 @@ table {
 .table-bordered > tbody > tr > td, .table-bordered > tbody > tr > th, .table-bordered > tfoot > tr > td, .table-bordered > tfoot > tr > th, .table-bordered > thead > tr > td, .table-bordered > thead > tr > th {
     border: 1px solid lightgrey;
 }
+@media all and (max-width:990px) {
+    .custom-class { width: 100%; display:block; }
+ }   
+::-webkit-scrollbar{
+     width: 5px;
+     height:5px;
+ }
+::-webkit-scrollbar-track{
+    background: rgb(252, 245, 237);
+}
+::-webkit-scrollbar-thumb{
+    box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+    background-color: rgb(170, 171, 175);
+}
+
+@media all and (max-width:766px) {
+    .design img {
+        width: 10vw;
+
+      }
+    .center {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+      }
+ }  

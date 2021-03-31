@@ -9,6 +9,7 @@ class Demographics extends Component {
     percentvalid: 0,
   };
   componentDidMount() {
+    
     axios
       .get(
         "https://my-json-server.typicode.com/harsh-singhal7385/json-data-practice/db"
@@ -30,6 +31,7 @@ class Demographics extends Component {
     var c3 = document.getElementById("checkbox3");
     var c4 = document.getElementById("checkbox4");
     var c5 = document.getElementById("checkbox5");
+
 
     if (!c1.checked && !c2.checked && !c3.checked) {
       for (var i = 0; i < jsondata.length; i++) {
@@ -169,6 +171,7 @@ class Demographics extends Component {
                       id="checkbox3"
                       value="8-10"
                       onChange={this.handleChange}
+                      
                     />
                     <label htmlFor="checkbox3">
                       <span className="on h6">8 - 10</span>
@@ -222,16 +225,6 @@ class Demographics extends Component {
                     </div>
                   </div>
                 </div>
-                {/* <div className="row">
-                <div className="col text-center">
-                  <h6><label className="form-label-check">Location</label></h6>
-                </div>
-              </div> */}
-                {/* <div className="row"> 
-                <div className="col text-center">
-                  <div onClick={handleChange} className="demographics1"><VscLocation size="80px" className="demographics" /></div>
-                </div>
-              </div> */}
               </div>
             </div>
             <br />
