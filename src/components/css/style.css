@@ -7,7 +7,7 @@ body {
     transform: translate(-12%, 10%);
 }
 .bg-new{
-    background-color:rgb(255, 153, 0);
+    background-color:rgb(255, 153, 0) !important;
 }
 .bg-new3{
     background-color:rgb(252, 245, 237);

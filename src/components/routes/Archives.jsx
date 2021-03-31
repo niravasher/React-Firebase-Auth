@@ -19,7 +19,7 @@ class Archives extends Component {
                 <table class="table table-bordered table-hover bg-light table-responsive">
                   <thead>
                     <tr>
-                      <th colspan="4" className="text-center">Company</th>
+                      <th colSpan="4" className="text-center">Company</th>
                     </tr>
                   </thead>
                   <tbody>
@@ -51,7 +51,7 @@ class Archives extends Component {
                 <table class="table table-bordered table-hover bg-light">
                   <thead>
                     <tr>
-                      <th colspan="3" className="text-center">Young Male</th>
+                      <th colSpan="3" className="text-center">Young Male</th>
                     </tr>
                   </thead>
                   <tbody>
@@ -77,7 +77,7 @@ class Archives extends Component {
                 <table class="table table-bordered table-hover bg-light">
                   <thead>
                     <tr>
-                      <th colspan="3" className="text-center">Young Female</th>
+                      <th colSpan="3" className="text-center">Young Female</th>
                     </tr>
                   </thead>
                   <tbody class="bg-light">
@@ -106,7 +106,7 @@ class Archives extends Component {
                 <table class="table table-bordered table-hover bg-light">
                   <thead>
                     <tr>
-                      <th colspan="3" className="text-center">Old Male</th>
+                      <th colSpan="3" className="text-center">Old Male</th>
                     </tr>
                   </thead>
                   <tbody class="bg-light">
@@ -132,7 +132,7 @@ class Archives extends Component {
                 <table class="table table-bordered table-hover bg-light">
                   <thead>
                     <tr>
-                      <th colspan="3" className="text-center">Old Female</th>
+                      <th colSpan="3" className="text-center">Old Female</th>
                     </tr>
                   </thead>
                   <tbody class="bg-light">
