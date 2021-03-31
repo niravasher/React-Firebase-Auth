@@ -2,15 +2,67 @@ body {
     overflow-x: hidden;
 }
 
+.navIcon{  
+    line-height:0%;
+    transform: translate(-12%, 10%);
+}
 .bg-new{
     background-color:rgb(255, 153, 0);
 }
 .bg-new3{
     background-color:rgb(252, 245, 237);
 }
+.bg-new4{
+    background-color:rgb(85, 137, 252);
+}
+.bg-new5{
+    background-color:rgb(12, 0, 179);
+}
+.bg-new6{
+    background-color:rgb(201, 16, 185);
+}
+.bg-new7{
+    background-color:rgb(0, 0, 0);
+}
 .set{
     overflow: hidden;
 }
+.footer1{
+    position:relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(212, 157, 121);
+    text-align: center;
+}
+.footer2{
+    background-color: rgb(134, 96, 73);
+    text-align: center;
+    height: 50px;
+}
+.btn-xl {
+    width: 40px;
+    height:40px;
+    border-radius: 35px;
+    border:none;
+    line-height:0px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+.active, .btn-xl:hover {
+    
+    box-shadow: 0 8px 12px 2px rgba(0, 0, 0, 0.2), 5px 10px 23px 0 rgba(0, 0, 0, 0.19);
+  }
+.changecolor{
+    color: white;
+}
+.navbar-collapse.collapse.show {
+    display: block!important;
+  }
+
+
 
 .flexcard {
     width: 50%;

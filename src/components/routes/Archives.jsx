@@ -1,10 +1,12 @@
 import React, { Component } from "react";
 import Navbar from "./Navbar";
+import Footer from "../routes/footer";
 import '../css/style.css'
 
 class Archives extends Component {
   render() {
     return (
+      <>
       <div className="bg-new3">
         <div className="row">
           <div className="col-lg-12 col-md-12 col-sm-12 text-center">
@@ -125,8 +127,11 @@ class Archives extends Component {
           </div>
         </div>
       </div>
-    );
-  }
+      <div className="row">
+          <Footer />
+      </div>
+    </>
+  );
+  };
 }
-
 export default Archives;
