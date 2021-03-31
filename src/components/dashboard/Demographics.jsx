@@ -9,13 +9,6 @@ class Demographics extends Component {
     percentvalid: 0,
   };
   componentDidMount() {
-    var c1 = document.getElementById("checkbox1");
-    var c2 = document.getElementById("checkbox2");
-    var c3 = document.getElementById("checkbox3");
-    var c4 = document.getElementById("checkbox4");
-    var c5 = document.getElementById("checkbox5");
-    c5.checked="true";
-    c3.checked="true";
     
     axios
       .get(
@@ -26,8 +19,6 @@ class Demographics extends Component {
         this.setState({
           jsondata: res.data.age_gender_data,
         });
-        this.handleChange();
-        
       });
   }
 
@@ -229,23 +220,11 @@ class Demographics extends Component {
                         id="checkbox5"
                         type="checkbox"
                         className="checkbox"
-                       
-                        //onLoad={this.handleChange}
                         onChange={this.handleChange}
                       />
                     </div>
                   </div>
                 </div>
-                {/* <div className="row">
-                <div className="col text-center">
-                  <h6><label className="form-label-check">Location</label></h6>
-                </div>
-              </div> */}
-                {/* <div className="row"> 
-                <div className="col text-center">
-                  <div onClick={handleChange} className="demographics1"><VscLocation size="80px" className="demographics" /></div>
-                </div>
-              </div> */}
               </div>
             </div>
             <br />
