@@ -1,26 +1,17 @@
 import React, { Component } from "react";
 import Navbar from "./Navbar";
-<<<<<<< HEAD
 import Footer from "../routes/footer";
-const Profile = () => {
-  
-  return (
-    <>
-      <div className="row">
-        <div className="col-lg-12 col-md-12 col-sm-12 text-center bg-info">
-          <Navbar />
-=======
 import '../css/style.css'
 
 class Archives extends Component {
   render() {
     return (
+      <>
       <div className="bg-new3">
         <div className="row">
           <div className="col-lg-12 col-md-12 col-sm-12 text-center">
             <Navbar />
           </div>
->>>>>>> 5daf442fa2170b4dfb2a32e3e1724cbf156cca90
         </div>
         <div className="container-fluid">
           <div className="row m-4">
@@ -136,17 +127,11 @@ class Archives extends Component {
           </div>
         </div>
       </div>
-<<<<<<< HEAD
       <div className="row">
           <Footer />
       </div>
     </>
   );
-};
-=======
-    );
-  }
+  };
 }
->>>>>>> 5daf442fa2170b4dfb2a32e3e1724cbf156cca90
-
 export default Archives;
