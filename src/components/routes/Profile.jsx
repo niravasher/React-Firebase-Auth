@@ -21,7 +21,7 @@ class Profile extends Component {
 
   componentDidMount() {
     axios
-      .get("http://my-json-server.typicode.com/niravasher/niroggyan_profile/db")
+      .get("https://my-json-server.typicode.com/niravasher/niroggyan_profile/db")
       .then((res) => {
         console.log(res.data.profile_data);
         this.setState({
