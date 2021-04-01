@@ -21,12 +21,12 @@ export default function Navbar() {
 
   return (
     <div>
-      <nav class="navbar navbar-expand-lg navbar-light bg-light bg-new">
+      <nav className="navbar navbar-expand-lg navbar-light bg-light bg-new">
         <Link className="navbar-brand" to="/dashboard">
           <img src={logo} width="150" height="30" />
         </Link>
         <button
-          class="navbar-toggler"
+          className="navbar-toggler"
           type="button"
           data-toggle="collapse"
           data-target="#navbarNav"
@@ -34,26 +34,26 @@ export default function Navbar() {
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <span class="navbar-toggler-icon"></span>
+          <span className="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
+        <div className="collapse navbar-collapse" id="navbarNav">
+          <ul className="navbar-nav ml-auto">
+            <li className="nav-item">
               <Link to="/dashboard" className="text-white text-decoration-none btn btn-warning custom-class ml-2 text-white my-1">
                 Dashboard
               </Link>
             </li>
-            <li class="nav-item">
+            <li className="nav-item">
               <Link to="/archives" className="text-white text-decoration-none btn btn-warning custom-class ml-2 text-white my-1">
                 Archives
               </Link>
             </li>
-            <li class="nav-item">
+            <li className="nav-item">
               <Link to="/profile" className="text-white text-decoration-none btn btn-warning custom-class ml-2 text-white my-1">
                 Profile
               </Link>
             </li>
-            <li class="nav-item">
+            <li className="nav-item">
               <button
                 type="button"
                 className="btn btn-warning custom-class ml-2 text-white my-1"
