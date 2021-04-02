@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300&display=swap');
+
 body {
     overflow-x: hidden;
 }
@@ -100,6 +103,34 @@ table {
     cursor: pointer !important;
 }
 
+#table1, #table2, #table3 {
+    width: 25vw;
+}
+
+.tableHead {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.bg-success-imp {
+    background: rgba(0,200,0,255);
+}
+
+.bg-warning-imp {
+    background: rgba(251,183,45,255)
+}
+
+.bg-danger-imp {
+    background: rgba(255,145,83,255);
+}
+
+.overflow-y-hidden {
+    overflow-y: hidden;
+}
+
+.text-font {
+    font-family: 'Nunito Sans', sans-serif;
+}
+
 @media all and (max-width:990px) {
     .custom-class { width: 100%; display:block; }
  }   
@@ -125,5 +156,8 @@ table {
         margin-left: auto;
         margin-right: auto;
         width: 50%;
-      }
+    }
+    #table1, #table2, #table3 {
+        width: 65vw;
+    }
  }  
