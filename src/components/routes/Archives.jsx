@@ -16,7 +16,7 @@ class Archives extends Component {
             <div className="row m-4">
               <div className="col-lg-1"></div>
               <div className="col-lg-12 col-sm-12 text-white upper_left mr-1">
-                <table class="table table-bordered table-hover bg-light table-responsive">
+                <table className="table table-bordered table-hover bg-light table-responsive">
                   <thead>
                     <tr>
                       <th colSpan="4" className="text-center">Company</th>
@@ -48,7 +48,7 @@ class Archives extends Component {
             <div className="row m-4">
               <div className="col-lg-1"></div>
               <div className="col-lg-5 col-sm-12 text-white upper_left mr-1">
-                <table class="table table-bordered table-hover bg-light">
+                <table className="table table-bordered table-hover bg-light">
                   <thead>
                     <tr>
                       <th colSpan="3" className="text-center">Young Male</th>
@@ -74,13 +74,13 @@ class Archives extends Component {
                 </table>
               </div>
               <div className="col-lg-5 col-sm-12 upper_left">
-                <table class="table table-bordered table-hover bg-light">
+                <table className="table table-bordered table-hover bg-light">
                   <thead>
                     <tr>
                       <th colSpan="3" className="text-center">Young Female</th>
                     </tr>
                   </thead>
-                  <tbody class="bg-light">
+                  <tbody className="bg-light">
                     <tr>
                       <td className="td">1</td>
                       <td className="thfirst"><span>to something</span></td>
@@ -103,13 +103,13 @@ class Archives extends Component {
             <div className="row m-4">
               <div className="col-lg-1"></div>
               <div className="col-lg-5 col-sm-12 upper_left text-white mr-1">
-                <table class="table table-bordered table-hover bg-light">
+                <table className="table table-bordered table-hover bg-light">
                   <thead>
                     <tr>
                       <th colSpan="3" className="text-center">Old Male</th>
                     </tr>
                   </thead>
-                  <tbody class="bg-light">
+                  <tbody className="bg-light">
                     <tr>
                       <td className="td">1</td>
                       <td className="thfirst"><span>Mark</span></td>
@@ -129,13 +129,13 @@ class Archives extends Component {
                 </table>
               </div>
               <div className="col-lg-5 col-sm-12 upper_left">
-                <table class="table table-bordered table-hover bg-light">
+                <table className="table table-bordered table-hover bg-light">
                   <thead>
                     <tr>
                       <th colSpan="3" className="text-center">Old Female</th>
                     </tr>
                   </thead>
-                  <tbody class="bg-light">
+                  <tbody className="bg-light">
                     <tr>
                       <td className="td">1</td>
                       <td className="thfirst"><span>Mark</span></td>

@@ -11,7 +11,7 @@ const DashCard = () => {
         <div className="container">
             <div className="row">
                 <div className="mb-4 col-lg-3 col-md-5 col-sm-6 flexcard">
-                    <div className="card">
+                    <div className="card rounded shadow">
                         <div className="card-body text-center">
                             <Blood />
                             <h5 className="text-center card-title">Blood</h5>
@@ -20,7 +20,7 @@ const DashCard = () => {
                     </div>
                 </div>
                 <div className="mb-4 col-lg-3 col-md-5 col-sm-6 flexcard">
-                    <div className="card">
+                    <div className="card rounded shadow">
                         <div className="card-body text-center">
                             <BP />
                             <h5 className="text-center card-title">Pressure</h5>
@@ -29,7 +29,7 @@ const DashCard = () => {
                     </div>
                 </div>
                 <div className="mb-4 col-lg-3 col-md-5 col-sm-6 flexcard">
-                    <div className="card">
+                    <div className="card rounded shadow">
                         <div className="card-body text-center">
                             <HT />
                             <h5 className="text-center card-title">Height</h5>
@@ -38,7 +38,7 @@ const DashCard = () => {
                     </div>
                 </div>
                 <div className="mb-4 col-lg-3 col-md-5 col-sm-6 flexcard">
-                    <div className="card">
+                    <div className="card rounded shadow">
                         <div className="card-body text-center">
                             <WT />
                             <h5 className="text-center card-title">Weight</h5>
