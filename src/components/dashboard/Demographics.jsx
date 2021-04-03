@@ -8,6 +8,10 @@ class Demographics extends Component {
   state = {
     jsondata: [],
     percentvalid: 0,
+    checked1: false,
+    checked2: false,
+    checked3: false,
+    checked4: false,
   };
   componentDidMount() {
     
@@ -16,7 +20,7 @@ class Demographics extends Component {
         "https://my-json-server.typicode.com/harsh-singhal7385/json-data-practice/db"
       )
       .then((res) => {
-        console.log(res);
+        // console.log(res);
         this.setState({
           jsondata: res.data.age_gender_data,
         });
@@ -27,11 +31,8 @@ class Demographics extends Component {
     var { jsondata } = this.state;
     var totalLen = jsondata.length;
     var valid = 0;
-    var c1 = document.getElementById("checkbox1");
-    var c2 = document.getElementById("checkbox2");
-    var c3 = document.getElementById("checkbox3");
-    var c4 = document.getElementById("checkbox4");
-    var c5 = document.getElementById("checkbox5");
+    // console.log(c1.checked);
+    // this.props.clickIcon(c1.checked, c2.checked, c3.checked, c4.checked);
 
 
     // if (!c1.checked && !c2.checked && !c3.checked) {
@@ -146,32 +147,32 @@ class Demographics extends Component {
                 </div>
                 <div className="row">
                   <div className="col">
-                    <div onClick={this.handleChange} className="demographics1 ">
+                    <div className="demographics1">
                       <img
                         className="checkmark"
                         src={Oldmale}
                         alt=""
                       />
                       <input
-                        id="checkbox2"
+                        id="checkbox1"
                         type="checkbox"
                         className="checkbox"
-                        onChange={this.handleChange}
+                        onChange={this.props.clickIcon}
                       />
                     </div>
                   </div>
                   <div className="col">
-                    <div onClick={this.handleChange} className="demographics1 ">
+                    <div className="demographics1">
                       <img
                         className="checkmark"
                         src={Oldfemale}
                         alt=""
                       />
                       <input
-                        id="checkbox3"
+                        id="checkbox2"
                         type="checkbox"
                         className="checkbox"
-                        onChange={this.handleChange}
+                        onChange={this.props.clickIcon}
                       />
                     </div>
                   </div>
@@ -192,32 +193,32 @@ class Demographics extends Component {
                 </div>
                 <div className="row">
                   <div className="col">
-                    <div onClick={this.handleChange} className="demographics1 ">
+                    <div className="demographics1">
                       <img
                         className="checkmark"
                         src="https://img.icons8.com/offices/80/000000/person-male-skin-type-4.png"
                         alt=""
                       />
                       <input
-                        id="checkbox4"
+                        id="checkbox3"
                         type="checkbox"
                         className="checkbox"
-                        onChange={this.handleChange}
+                        onChange={this.props.clickIcon}
                       />
                     </div>
                   </div>
                   <div className="col">
-                    <div onClick={this.handleChange} className="demographics1 ">
+                    <div className="demographics1 ">
                       <img
                         className="checkmark"
                         src="https://img.icons8.com/officel/80/000000/person-female.png"
                         alt=""
                       />
                       <input
-                        id="checkbox5"
+                        id="checkbox4"
                         type="checkbox"
                         className="checkbox"
-                        onChange={this.handleChange}
+                        onChange={this.props.clickIcon}
                       />
                     </div>
                   </div>
