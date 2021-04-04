@@ -30,9 +30,7 @@ class Tests extends Component {
 
   render() {
     var color;
-    console.log(this.props);
     const denominator = ( this.BoolToInt(this.props.young_male) + this.BoolToInt(this.props.young_female) + this.BoolToInt(this.props.old_male) + this.BoolToInt(this.props.old_female) ) * 100;
-    console.log(denominator);
     const { jsondata } = this.state;
     const centralData = jsondata.length ? (
       jsondata.map((data) => {
@@ -56,7 +54,7 @@ class Tests extends Component {
                           {data.profile_name === 'Some other' && <img src={Other} alt='' /> }
                         </span> {data.profile_name}</div>
                       <div className="col-lg-2 col-3 text-center">{data.test_no}</div>
-                      <div className="col-lg-4 col-12 text-center"><ProgressBar bgColor={color} labelColor="black" completed={percent} /></div>
+                      <div className="col-lg-4 col-12 text-center"><ProgressBar bgColor={color} labelColor="black" completed={percent || 0} /></div>
                       <div className="col-lg-12 pt-2 text-secondary text-center"><small>{data.comment}</small></div>
                     </div>
                   </div>

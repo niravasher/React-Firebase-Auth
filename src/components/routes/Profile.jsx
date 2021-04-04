@@ -16,7 +16,6 @@ class Profile extends Component {
         "https://my-json-server.typicode.com/niravasher/niroggyan_profile/db"
       )
       .then((res) => {
-        console.log(res.data.profile_data);
         this.setState({
           jsondata: res.data.profile_data,
         });

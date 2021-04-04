@@ -11,10 +11,10 @@ export default function Dashboard() {
   const [setError] = useState("")
   const { logout } = useAuth()
   const history = useHistory()
-  const [first, setFirst] = useState(false);
-  const [second, setSecond] = useState(false);
-  const [third, setThird] = useState(false);
-  const [fourth, setFourth] = useState(false);
+  const [first, setFirst] = useState(true);
+  const [second, setSecond] = useState(true);
+  const [third, setThird] = useState(true);
+  const [fourth, setFourth] = useState(true);
 
   async function handleLogout() {
     setError("")
@@ -51,9 +51,9 @@ export default function Dashboard() {
           <Tests young_male={first} young_female={second} old_male={third} old_female={fourth} />
         </div>
         <div className="col-lg-5 col-md-4 col-sm-12 text-left">
-          <Demographics clickIcon={clickIcon} />
+          <Demographics clickIcon={clickIcon} first={first} second={second} third={third} fourth={fourth} />
         </div>
-        <div className="col-lg-7 col-md-7 col-sm-11 text-left my-4">
+        <div className="col-lg-12 col-md-7 col-sm-11 text-left my-4">
           <DashCard />
         </div>
       </div>
