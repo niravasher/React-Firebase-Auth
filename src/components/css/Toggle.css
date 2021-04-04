@@ -88,7 +88,7 @@
 .checkbox {
   position: absolute;
   top: 0vh;
-  left: 6.2vw;
+  left: 5.5vw;
   opacity: 0.5;
   cursor: pointer;
   height: 80px;
@@ -101,7 +101,7 @@
 @media screen and (max-width:450px){
   .checkbox {
     top: 0vh;
-    left: 14vw;
+    left: 10.5vw;
     opacity: 0.5;
     cursor: pointer;
     height: 80px;
