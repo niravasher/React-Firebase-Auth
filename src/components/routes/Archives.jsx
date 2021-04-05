@@ -2,6 +2,9 @@ import React, { Component } from "react";
 import Navbar from "./Navbar";
 import Footer from "../routes/footer";
 import '../css/style.css'
+import ReactTooltip from 'react-tooltip';
+import { AiFillInfoCircle } from "react-icons/ai";
+
 class Archives extends Component {
   render() {
     return (
@@ -19,7 +22,7 @@ class Archives extends Component {
                 <table className="table table-bordered table-hover bg-light table-responsive">
                   <thead>
                     <tr>
-                      <th colSpan="4" className="text-center">Company</th>
+                      <th colSpan="4" className="text-center">Company <AiFillInfoCircle data-tip="hello world" class="mb-1" /></th>
                     </tr>
                   </thead>
                   <tbody>
@@ -51,7 +54,7 @@ class Archives extends Component {
                 <table className="table table-bordered table-hover bg-light">
                   <thead>
                     <tr>
-                      <th colSpan="3" className="text-center">Young Male</th>
+                      <th colSpan="3" className="text-center">Young Male <AiFillInfoCircle data-tip="hello world" class="mb-1" /></th>
                     </tr>
                   </thead>
                   <tbody>
@@ -77,7 +80,7 @@ class Archives extends Component {
                 <table className="table table-bordered table-hover bg-light">
                   <thead>
                     <tr>
-                      <th colSpan="3" className="text-center">Young Female</th>
+                      <th colSpan="3" className="text-center">Young Female <AiFillInfoCircle data-tip="hello world" class="mb-1" /></th>
                     </tr>
                   </thead>
                   <tbody className="bg-light">
@@ -106,7 +109,7 @@ class Archives extends Component {
                 <table className="table table-bordered table-hover bg-light">
                   <thead>
                     <tr>
-                      <th colSpan="3" className="text-center">Old Male</th>
+                      <th colSpan="3" className="text-center">Old Male <AiFillInfoCircle data-tip="hello world" class="mb-1" /></th>
                     </tr>
                   </thead>
                   <tbody className="bg-light">
@@ -132,7 +135,7 @@ class Archives extends Component {
                 <table className="table table-bordered table-hover bg-light">
                   <thead>
                     <tr>
-                      <th colSpan="3" className="text-center">Old Female</th>
+                      <th colSpan="3" className="text-center">Old Female <AiFillInfoCircle data-tip="hello world" class="mb-1" /></th>
                     </tr>
                   </thead>
                   <tbody className="bg-light">
@@ -160,6 +163,7 @@ class Archives extends Component {
         <div className="row">
           <Footer />
         </div>
+        <ReactTooltip />
       </>
     );
   };

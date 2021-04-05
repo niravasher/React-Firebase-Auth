@@ -4,6 +4,8 @@ import Footer from "../routes/footer";
 import "../css/style.css";
 import bp from "../images/bp_new.svg";
 import axios from "axios";
+import ReactTooltip from 'react-tooltip';
+import { AiFillInfoCircle } from "react-icons/ai";
 
 class Profile extends Component {
   state = {
@@ -287,7 +289,7 @@ class Profile extends Component {
         <br />
         <div className="d-flex flex-wrap justify-content-around mb-3 text-center align-self-start">
           <div className="p-2 m-2 bg-success-imp rounded">
-            <h3 className="text-center text-white pb-1">GOOD</h3>
+            <h3 className="text-center text-white pb-1">GOOD <AiFillInfoCircle data-tip="hello world" class="mb-1" /></h3>
             <div className="card shadow">
               <div className="card-body">
                 <table id="table1" className="table table-bordered">
@@ -304,7 +306,7 @@ class Profile extends Component {
             </div>
           </div>
           <div className="p-2 m-2 bg-warning-imp rounded">
-            <h3 className="text-center text-white pb-1">WARNING</h3>
+            <h3 className="text-center text-white pb-1">WARNING <AiFillInfoCircle data-tip="hello world" class="mb-1" /></h3>
             <div className="card shadow">
               <div className="card-body">
                 <table id="table2" className="table table-bordered">
@@ -321,7 +323,7 @@ class Profile extends Component {
             </div>
           </div>
           <div className="p-2 m-2 bg-danger-imp rounded">
-            <h3 className="text-center text-white pb-1">BAD</h3>
+            <h3 className="text-center text-white pb-1">BAD <AiFillInfoCircle data-tip="hello world" class="mb-1" /></h3>
             <div className="card shadow">
               <div className="card-body">
                 <table id="table3" className="table table-bordered">
@@ -341,6 +343,7 @@ class Profile extends Component {
         <div className="row">
           <Footer />
         </div>
+        <ReactTooltip />
       </div>
     );
   }

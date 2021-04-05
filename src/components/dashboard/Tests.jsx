@@ -8,6 +8,7 @@ import Body from "../images/body.svg";
 import RBC from "../images/rbc.svg";
 import "../css/tests.css";
 import axios from "axios";
+import ReactTooltip from 'react-tooltip';
 
 class Tests extends Component {
   state = {
@@ -129,10 +130,10 @@ class Tests extends Component {
               <div className="card-body">
                 <div className="container">
                   <div className="row text-uppercase bolded">
-                    <div className="col-lg-1 hidden-xs">Sr.</div>
-                    <div className="col-lg-5 col-4">Profile</div>
-                    <div className="col-lg-2 col-4">Tests</div>
-                    <div className="col-lg-4 col-4">Out of Range</div>
+                    <div className="col-lg-1 hidden-xs"><span data-tip="hello world">Sr.</span></div>
+                    <div className="col-lg-5 col-4"><span data-tip="hello world">Profile</span></div>
+                    <div className="col-lg-2 col-4"><span data-tip="hello world">Tests</span></div>
+                    <div className="col-lg-4 col-4"><span data-tip="hello world">Out Of Range</span></div>
                   </div>
                 </div>
               </div>
@@ -171,6 +172,7 @@ class Tests extends Component {
           </div>
           <div className="col-lg-1"></div>
         </div> }
+        <ReactTooltip />
       </div>
     );
   }

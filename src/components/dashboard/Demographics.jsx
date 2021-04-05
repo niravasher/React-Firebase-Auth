@@ -4,6 +4,8 @@ import axios from "axios";
 import Oldmale from "../images/oldmale.svg";
 import Oldfemale from "../images/oldfemale.svg";
 import DashCard from "./Cards.jsx";
+import ReactTooltip from 'react-tooltip';
+import { AiFillInfoCircle } from "react-icons/ai";
 
 class Demographics extends Component {
   state = {
@@ -46,7 +48,7 @@ class Demographics extends Component {
         <div className="container">
           <div className="card shadow mt-2">
             <div className="card-header">
-              <h4 className="text-center text-uppercase">Statistics</h4>
+              <h4 className="h4 text-center text-uppercase">Statistics <AiFillInfoCircle data-tip="hello world" class="mb-1" /></h4>
             </div>
             <div className="card-body">
               <p className="text-center fontchange">Total No. of Professionals who got tested: <b>{professionals}</b></p>
@@ -154,6 +156,7 @@ class Demographics extends Component {
             <DashCard />
           </div>
         </div>
+        <ReactTooltip />
       </>
     );
   }
