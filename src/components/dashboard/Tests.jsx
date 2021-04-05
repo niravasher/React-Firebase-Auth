@@ -94,7 +94,7 @@ class Tests extends Component {
                             <img src={Other} alt="" />
                           )}
                         </span>{" "}
-                        <span onClick={this.cardClicked}>{data.profile_name}</span>
+                        <span onClick={this.cardClicked} className="hover_change">{data.profile_name}</span>
                       </div>
                       <div className="col-lg-2 col-3 text-center">
                         {data.test_no}

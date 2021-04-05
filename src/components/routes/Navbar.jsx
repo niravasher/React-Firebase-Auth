@@ -8,6 +8,7 @@ import "../css/style.css";
 export default function Navbar() {
   const [error, setError] = useState("");
   const { currentUser, logout } = useAuth();
+  const [openModal, setOpenModal] = useState(false);
   const history = useHistory();
   async function handleLogout() {
     setError("");
@@ -18,6 +19,14 @@ export default function Navbar() {
     } catch {
       setError("Failed to log out");
     }
+  }
+
+  function closeModal() {
+    setOpenModal(false);
+  }
+
+  function openVideoModal() {
+    setOpenModal(true);
   }
 
   return (
@@ -67,6 +76,7 @@ export default function Navbar() {
               <button
                 type="button"
                 className="btn btn-warning ml-2 text-white my-1"
+                onClick={openVideoModal}
               >
                 How To
               </button>
@@ -87,9 +97,12 @@ export default function Navbar() {
         <div className="row">
           <div className="col-lg-2"></div>
           <div className="col-lg-8">
-            <div class="card p-3 human_body">
+            {openModal && <div class="card p-3 human_body">
               <ReactPlayer url='https://www.youtube.com/watch?v=ysz5S6PUM-U' width="54vw" controls="true" />
-            </div>
+              <button type="button" class="btn btn-danger" onClick={closeModal}>
+                CLOSE
+              </button>
+            </div> }
           </div>
           <div className="col-lg-2"></div>
         </div>
