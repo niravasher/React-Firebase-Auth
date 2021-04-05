@@ -46,7 +46,7 @@ class Demographics extends Component {
     return (
       <>
         <div className="container">
-          <div className="card shadow mt-2">
+          <div className="card shadow mt-2 round_test">
             <div className="card-header">
               <h4 className="h4 text-center text-uppercase">Statistics <AiFillInfoCircle data-tip="hello world" class="mb-1" /></h4>
             </div>

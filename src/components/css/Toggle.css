@@ -9,6 +9,10 @@
   font-family: 'DM Sans', sans-serif;
 }
 
+.round_test {
+  border-radius: 10px;
+}
+
 .unselectable-text{
   -webkit-user-select: none;
   -webkit-touch-callout: none;
@@ -82,12 +86,10 @@
 }
 .progress-bar-css1{
   height:10px;
-  
 }
 .progress-bar-css2{
   width:50%;
   background-color: yellow;
-
 }
 
 .checkbox {

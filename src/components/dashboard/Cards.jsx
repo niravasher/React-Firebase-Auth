@@ -13,7 +13,7 @@ const DashCard = () => {
         <div className="container">
             <div className="row">
                 <div className="mb-4 col-lg-6 col-md-5 col-sm-6 flexcard">
-                    <div className="card rounded shadow">
+                    <div className="card shadow round_test">
                     <h5 className="text-center card-header bolded text-uppercase">Blood <AiFillInfoCircle data-tip="hello world" class="mb-1" /></h5>
                         <div className="card-body text-center">
                             <Blood className="mb-4" />
@@ -22,7 +22,7 @@ const DashCard = () => {
                     </div>
                 </div>
                 <div className="mb-4 col-lg-6 col-md-5 col-sm-6 flexcard">
-                    <div className="card rounded shadow">
+                    <div className="card rounded shadow round_test">
                     <h5 className="text-center card-header bolded text-uppercase">Pressure <AiFillInfoCircle data-tip="hello world" class="mb-1" /></h5>
                         <div className="card-body text-center">
                             <BP className="mb-4" />
@@ -31,7 +31,7 @@ const DashCard = () => {
                     </div>
                 </div>
                 <div className="mb-4 col-lg-6 col-md-5 col-sm-6 flexcard">
-                    <div className="card rounded shadow">
+                    <div className="card rounded shadow round_test">
                         <h5 className="text-center card-header bolded text-uppercase">Height <AiFillInfoCircle data-tip="hello world" class="mb-1" /></h5>
                         <div className="card-body text-center">
                             <HT className="mb-4" />
@@ -40,7 +40,7 @@ const DashCard = () => {
                     </div>
                 </div>
                 <div className="mb-4 col-lg-6 col-md-5 col-sm-6 flexcard">
-                    <div className="card rounded shadow">
+                    <div className="card rounded shadow round_test">
                     <h5 className="text-center card-header bolded text-uppercase">Weight <AiFillInfoCircle data-tip="hello world" class="mb-1" /></h5>
                         <div className="card-body text-center">
                             <WT className="mb-4" />

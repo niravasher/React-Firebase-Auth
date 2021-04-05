@@ -9,6 +9,7 @@ import RBC from "../images/rbc.svg";
 import "../css/tests.css";
 import axios from "axios";
 import ReactTooltip from 'react-tooltip';
+import { AiFillInfoCircle } from "react-icons/ai";
 
 class Tests extends Component {
   state = {
@@ -126,12 +127,13 @@ class Tests extends Component {
       <div className="container ml-4">
         <div className="row no-gutters text-center bebas_neue">
           <div className="col-lg-12">
+            <h2>Some header here <AiFillInfoCircle data-tip="hello world" class="mb-1" /></h2>
             <div className="card border-0 bg-new3">
               <div className="card-body">
                 <div className="container">
                   <div className="row text-uppercase bolded">
                     <div className="col-lg-1 hidden-xs"><span data-tip="hello world">Sr.</span></div>
-                    <div className="col-lg-5 col-4"><span data-tip="hello world">Profile</span></div>
+                    <div className="col-lg-5 col-4 text-left pl-5"><span data-tip="hello world">Profile</span></div>
                     <div className="col-lg-2 col-4"><span data-tip="hello world">Tests</span></div>
                     <div className="col-lg-4 col-4"><span data-tip="hello world">Out Of Range</span></div>
                   </div>
