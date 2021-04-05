@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Link, useHistory } from "react-router-dom";
+import ReactPlayer from 'react-player'
 import { useAuth } from "../../contexts/AuthContext";
 import logo from "../images/logo.png";
 import "../css/style.css";
@@ -39,19 +40,36 @@ export default function Navbar() {
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav ml-auto">
             <li className="nav-item">
-              <Link to="/dashboard" className="text-white text-decoration-none btn btn-warning custom-class ml-2 text-white my-1">
+              <Link
+                to="/dashboard"
+                className="text-white text-decoration-none btn btn-warning custom-class ml-2 text-white my-1"
+              >
                 Dashboard
               </Link>
             </li>
             <li className="nav-item">
-              <Link to="/archives" className="text-white text-decoration-none btn btn-warning custom-class ml-2 text-white my-1">
+              <Link
+                to="/archives"
+                className="text-white text-decoration-none btn btn-warning custom-class ml-2 text-white my-1"
+              >
                 Archives
               </Link>
             </li>
             <li className="nav-item">
-              <Link to="/profile" className="text-white text-decoration-none btn btn-warning custom-class ml-2 text-white my-1">
+              <Link
+                to="/profile"
+                className="text-white text-decoration-none btn btn-warning custom-class ml-2 text-white my-1"
+              >
                 Profile
               </Link>
+            </li>
+            <li className="nav-item">
+              <button
+                type="button"
+                className="btn btn-warning ml-2 text-white my-1"
+              >
+                How To
+              </button>
             </li>
             <li className="nav-item">
               <button
@@ -65,6 +83,17 @@ export default function Navbar() {
           </ul>
         </div>
       </nav>
+      <div className="container text-center how_to_video">
+        <div className="row">
+          <div className="col-lg-2"></div>
+          <div className="col-lg-8">
+            <div class="card p-3 human_body">
+              <ReactPlayer url='https://www.youtube.com/watch?v=ysz5S6PUM-U' width="54vw" controls="true" />
+            </div>
+          </div>
+          <div className="col-lg-2"></div>
+        </div>
+      </div>
     </div>
   );
 }

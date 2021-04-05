@@ -1,5 +1,4 @@
 import React, { useRef, useState } from "react";
-// import { Form, Button, Card, Alert } from "react-bootstrap";
 import { useAuth } from "../contexts/AuthContext";
 import { Link, useHistory } from "react-router-dom";
 
@@ -16,19 +15,19 @@ export default function Signup() {
     e.preventDefault();
 
     if (passwordRef.current.value !== passwordConfirmRef.current.value) {
-      return setError("Passwords do not match");
+      return setError("Passwords do not match")
     }
 
     try {
-      setError("");
-      setLoading(true);
-      await signup(emailRef.current.value, passwordRef.current.value);
-      history.push("/dashboard");
+      setError("")
+      setLoading(true)
+      await signup(emailRef.current.value, passwordRef.current.value)
+      history.push("/dashboard")
     } catch {
-      setError("Failed to create an account");
+      setError("Failed to create an account")
     }
 
-    setLoading(false);
+    setLoading(false)
   }
 
   return (
@@ -37,7 +36,6 @@ export default function Signup() {
         <div className="row">
           <div className="col-sm-9 col-md-7 col-lg-6 mx-auto">
             <div className="border1 card shadow-lg card-signin my-5">
-              
               <div className="card-body">
                 <h1 className="card-title text-center">Sign Up</h1>
                 <form className="form-signup" onSubmit={handleSubmit}>
@@ -77,14 +75,8 @@ export default function Signup() {
                     />
                   </div>
 
-                  <div className="custom-control custom-checkbox mb-3">
-                    <input
-                      type="checkbox"
-                      className="custom-control-input"
-                      id="customCheck1"
-                    />
-                  </div>
-                  <button className="border1 btn shadow btn-lg btn-primary btn-block text-uppercase" type="submit">
+                  <div className="custom-control custom-checkbox mb-3"></div>
+                  <button disabled={loading} className="border1 btn shadow btn-lg btn-primary btn-block text-uppercase" type="submit">
                     Sign Up
                   </button>
                 </form>

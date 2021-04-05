@@ -10,39 +10,39 @@ const DashCard = () => {
     return (
         <div className="container">
             <div className="row">
-                <div className="mb-4 col-lg-3 col-md-5 col-sm-6 flexcard">
+                <div className="mb-4 col-lg-6 col-md-5 col-sm-6 flexcard">
                     <div className="card rounded shadow">
+                    <h5 className="text-center card-header bolded text-uppercase">Blood</h5>
                         <div className="card-body text-center">
-                            <Blood />
-                            <h5 className="text-center card-title">Blood</h5>
-                            <h6 className="text-center">120/80</h6>
+                            <Blood className="mb-4" />
+                            <h6 className="text-center bolded">120/80</h6>
                         </div>
                     </div>
                 </div>
-                <div className="mb-4 col-lg-3 col-md-5 col-sm-6 flexcard">
+                <div className="mb-4 col-lg-6 col-md-5 col-sm-6 flexcard">
                     <div className="card rounded shadow">
+                    <h5 className="text-center card-header bolded text-uppercase">Pressure</h5>
                         <div className="card-body text-center">
-                            <BP />
-                            <h5 className="text-center card-title">Pressure</h5>
-                            <h6 className="text-center">120/80</h6>
+                            <BP className="mb-4" />
+                            <h6 className="text-center bolded">120/80</h6>
                         </div>
                     </div>
                 </div>
-                <div className="mb-4 col-lg-3 col-md-5 col-sm-6 flexcard">
+                <div className="mb-4 col-lg-6 col-md-5 col-sm-6 flexcard">
                     <div className="card rounded shadow">
+                        <h5 className="text-center card-header bolded text-uppercase">Height</h5>
                         <div className="card-body text-center">
-                            <HT />
-                            <h5 className="text-center card-title">Height</h5>
-                            <h6 className="text-center">158</h6>
+                            <HT className="mb-4" />
+                            <h6 className="text-center bolded">158</h6>
                         </div>
                     </div>
                 </div>
-                <div className="mb-4 col-lg-3 col-md-5 col-sm-6 flexcard">
+                <div className="mb-4 col-lg-6 col-md-5 col-sm-6 flexcard">
                     <div className="card rounded shadow">
+                    <h5 className="text-center card-header bolded text-uppercase">Weight</h5>
                         <div className="card-body text-center">
-                            <WT />
-                            <h5 className="text-center card-title">Weight</h5>
-                            <h6 className="text-center">120 kg</h6>
+                            <WT className="mb-4" />
+                            <h6 className="text-center bolded">120 kg</h6>
                         </div>
                     </div>
                 </div>

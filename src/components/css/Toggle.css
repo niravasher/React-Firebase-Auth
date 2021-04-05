@@ -1,7 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@700&display=swap');
 
 .fontchange {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Inter', sans-serif;
+}
+
+.bolded {
+  font-family: 'DM Sans', sans-serif;
 }
 
 .unselectable-text{
@@ -88,7 +93,7 @@
 .checkbox {
   position: absolute;
   top: 0vh;
-  left: 5.5vw;
+  left: 6vw;
   opacity: 0.5;
   cursor: pointer;
   height: 80px;

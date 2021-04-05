@@ -2,7 +2,6 @@ import React, { useState } from "react"
 import { useAuth } from "../contexts/AuthContext"
 import { useHistory } from "react-router-dom"
 import Navbar from "./routes/Navbar";
-import DashCard from "./dashboard/Cards.jsx";
 import Demographics from "./dashboard/Demographics";
 import Tests from "./dashboard/Tests";
 import Footer from "./routes/footer";
@@ -52,9 +51,6 @@ export default function Dashboard() {
         </div>
         <div className="col-lg-5 col-md-4 col-sm-12 text-left">
           <Demographics clickIcon={clickIcon} first={first} second={second} third={third} fourth={fourth} />
-        </div>
-        <div className="col-lg-12 col-md-7 col-sm-11 text-left my-4">
-          <DashCard />
         </div>
       </div>
       <div className="row">
