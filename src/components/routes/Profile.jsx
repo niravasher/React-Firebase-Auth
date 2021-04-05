@@ -98,6 +98,106 @@ class Profile extends Component {
             <Navbar />
           </div>
         </div>
+        <div className="container-fluid custom_font">
+          <div className="row">
+            <div className="col-lg-1"></div>
+            <div className="col-lg-2 text-center">
+              <img
+                src={bp}
+                className="center card-img-top pl-5 pr-5 pt-5 pb-2"
+                alt="..."
+              />
+              <h4>Title</h4>
+              <p>lorem ipsum</p>
+            </div>
+            <div className="col-lg-2 text-center">
+              <img
+                src={bp}
+                className="center card-img-top pl-5 pr-5 pt-5 pb-2"
+                alt="..."
+              />
+              <h4>Title</h4>
+              <p>lorem ipsum</p>
+            </div>
+            <div className="col-lg-2 text-center">
+              <img
+                src={bp}
+                className="center card-img-top pl-5 pr-5 pt-5 pb-2"
+                alt="..."
+              />
+              <h4>Title</h4>
+              <p>lorem ipsum</p>
+            </div>
+            <div className="col-lg-2 text-center">
+              <img
+                src={bp}
+                className="center card-img-top pl-5 pr-5 pt-5 pb-2"
+                alt="..."
+              />
+              <h4>Title</h4>
+              <p>lorem ipsum</p>
+            </div>
+            <div className="col-lg-2 text-center">
+              <img
+                src={bp}
+                className="center card-img-top pl-5 pr-5 pt-5 pb-2"
+                alt="..."
+              />
+              <h4>Title</h4>
+              <p>lorem ipsum</p>
+            </div>
+            <div className="col-lg-1"></div>
+          </div>
+          <div className="row">
+            <div className="col-lg-1"></div>
+            <div className="col-lg-2 text-center">
+              <img
+                src={bp}
+                className="center card-img-top pl-5 pr-5 pt-5 pb-2"
+                alt="..."
+              />
+              <h4>Title</h4>
+              <p>lorem ipsum</p>
+            </div>
+            <div className="col-lg-2 text-center">
+              <img
+                src={bp}
+                className="center card-img-top pl-5 pr-5 pt-5 pb-2"
+                alt="..."
+              />
+              <h4>Title</h4>
+              <p>lorem ipsum</p>
+            </div>
+            <div className="col-lg-2 text-center">
+              <img
+                src={bp}
+                className="center card-img-top pl-5 pr-5 pt-5 pb-2"
+                alt="..."
+              />
+              <h4>Title</h4>
+              <p>lorem ipsum</p>
+            </div>
+            <div className="col-lg-2 text-center">
+              <img
+                src={bp}
+                className="center card-img-top pl-5 pr-5 pt-5 pb-2"
+                alt="..."
+              />
+              <h4>Title</h4>
+              <p>lorem ipsum</p>
+            </div>
+            <div className="col-lg-2 text-center">
+              <img
+                src={bp}
+                className="center card-img-top pl-5 pr-5 pt-5 pb-2"
+                alt="..."
+              />
+              <h4>Title</h4>
+              <p>lorem ipsum</p>
+            </div>
+            <div className="col-lg-1"></div>
+          </div>
+        </div>
         {/* <div className="col-12">
           <div className="row row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-2 row-cols-xl-3">
             <div className="col mb-2 mt-4">
@@ -308,7 +408,7 @@ class Profile extends Component {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
         <br />
         <div className="container">
           <div className="row">
@@ -320,7 +420,7 @@ class Profile extends Component {
               </CSVLink>
             </div>
           </div>
-        </div> */}
+        </div>
         <div className="d-flex flex-wrap justify-content-around mb-3 text-center align-self-start">
           <div className="p-2 m-2 bg-success-imp rounded">
             <h3 className="text-center text-white pb-1">GOOD <AiFillInfoCircle data-tip="hello world" class="mb-1" /></h3>
