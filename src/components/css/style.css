@@ -147,6 +147,11 @@ table {
     font-family: 'Nunito Sans', sans-serif;
 }
 
+.reduce_width {
+    padding: 60px !important;
+    padding-bottom: 20px !important;
+}
+
 @media all and (max-width:990px) {
     .custom-class { width: 100%; display:block; }
  }   

@@ -3,6 +3,8 @@ import "../css/Toggle.css";
 import axios from "axios";
 import Oldmale from "../images/oldmale.svg";
 import Oldfemale from "../images/oldfemale.svg";
+import Youngmale from "../images/youngmale.svg";
+import Youngfemale from "../images/youngfemale.svg";
 import DashCard from "./Cards.jsx";
 import ReactTooltip from 'react-tooltip';
 import { AiFillInfoCircle } from "react-icons/ai";
@@ -117,7 +119,7 @@ class Demographics extends Component {
                       <div className="demographics1">
                         <img
                           className="checkmark"
-                          src="https://img.icons8.com/offices/80/000000/person-male-skin-type-4.png"
+                          src={Youngmale}
                           alt=""
                         />
                         <input
@@ -134,7 +136,7 @@ class Demographics extends Component {
                       <div className="demographics1 ">
                         <img
                           className="checkmark"
-                          src="https://img.icons8.com/officel/80/000000/person-female.png"
+                          src={Youngfemale}
                           alt=""
                         />
                         <input

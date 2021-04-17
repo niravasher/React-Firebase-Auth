@@ -104,7 +104,7 @@ class Profile extends Component {
             <div className="col-lg-2 text-center">
               <img
                 src={bp}
-                className="center card-img-top pl-5 pr-5 pt-5 pb-2"
+                className="center card-img-top reduce_width"
                 alt="..."
               />
               <h4>Title</h4>
@@ -113,7 +113,7 @@ class Profile extends Component {
             <div className="col-lg-2 text-center">
               <img
                 src={bp}
-                className="center card-img-top pl-5 pr-5 pt-5 pb-2"
+                className="center card-img-top reduce_width"
                 alt="..."
               />
               <h4>Title</h4>
@@ -122,7 +122,7 @@ class Profile extends Component {
             <div className="col-lg-2 text-center">
               <img
                 src={bp}
-                className="center card-img-top pl-5 pr-5 pt-5 pb-2"
+                className="center card-img-top reduce_width"
                 alt="..."
               />
               <h4>Title</h4>
@@ -131,7 +131,7 @@ class Profile extends Component {
             <div className="col-lg-2 text-center">
               <img
                 src={bp}
-                className="center card-img-top pl-5 pr-5 pt-5 pb-2"
+                className="center card-img-top reduce_width"
                 alt="..."
               />
               <h4>Title</h4>
@@ -140,7 +140,7 @@ class Profile extends Component {
             <div className="col-lg-2 text-center">
               <img
                 src={bp}
-                className="center card-img-top pl-5 pr-5 pt-5 pb-2"
+                className="center card-img-top reduce_width"
                 alt="..."
               />
               <h4>Title</h4>
@@ -153,7 +153,7 @@ class Profile extends Component {
             <div className="col-lg-2 text-center">
               <img
                 src={bp}
-                className="center card-img-top pl-5 pr-5 pt-5 pb-2"
+                className="center card-img-top reduce_width"
                 alt="..."
               />
               <h4>Title</h4>
@@ -162,7 +162,7 @@ class Profile extends Component {
             <div className="col-lg-2 text-center">
               <img
                 src={bp}
-                className="center card-img-top pl-5 pr-5 pt-5 pb-2"
+                className="center card-img-top reduce_width"
                 alt="..."
               />
               <h4>Title</h4>
@@ -171,7 +171,7 @@ class Profile extends Component {
             <div className="col-lg-2 text-center">
               <img
                 src={bp}
-                className="center card-img-top pl-5 pr-5 pt-5 pb-2"
+                className="center card-img-top reduce_width"
                 alt="..."
               />
               <h4>Title</h4>
@@ -180,7 +180,7 @@ class Profile extends Component {
             <div className="col-lg-2 text-center">
               <img
                 src={bp}
-                className="center card-img-top pl-5 pr-5 pt-5 pb-2"
+                className="center card-img-top reduce_width"
                 alt="..."
               />
               <h4>Title</h4>
@@ -189,7 +189,7 @@ class Profile extends Component {
             <div className="col-lg-2 text-center">
               <img
                 src={bp}
-                className="center card-img-top pl-5 pr-5 pt-5 pb-2"
+                className="center card-img-top reduce_width"
                 alt="..."
               />
               <h4>Title</h4>
