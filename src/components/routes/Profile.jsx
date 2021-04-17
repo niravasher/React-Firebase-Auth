@@ -2,7 +2,20 @@ import React, { Component } from "react";
 import Navbar from "./Navbar";
 import Footer from "../routes/footer";
 import "../css/style.css";
-import bp from "../images/bp_new.svg";
+
+
+import CBC from "../images/profile/CBC.svg";
+import Anemia from "../images/profile/Anemia.svg";
+import Diabetes from "../images/profile/Diabetes.svg";
+import Electrolytes from "../images/profile/Electrolytes.svg";
+import Kidneys from "../images/profile/Kidneys.svg";
+import Lipid from "../images/profile/Lipid.svg";
+import Liver from "../images/profile/Liver.svg";
+import Thyroid from "../images/profile/Thyroid.svg";
+import Urine from "../images/profile/Urine.svg";
+import VitaminB12 from "../images/profile/VitaminB12.svg";
+import VitaminD from "../images/profile/VitaminD.svg";
+
 import axios from "axios";
 import ReactTooltip from 'react-tooltip';
 import { AiFillInfoCircle, AiOutlineFileExcel } from "react-icons/ai";
@@ -103,7 +116,7 @@ class Profile extends Component {
             <div className="col-lg-1"></div>
             <div className="col-lg-2 text-center">
               <img
-                src={bp}
+                src={CBC}
                 className="center card-img-top reduce_width"
                 alt="..."
               />
@@ -112,7 +125,7 @@ class Profile extends Component {
             </div>
             <div className="col-lg-2 text-center">
               <img
-                src={bp}
+                src={Anemia}
                 className="center card-img-top reduce_width"
                 alt="..."
               />
@@ -121,7 +134,7 @@ class Profile extends Component {
             </div>
             <div className="col-lg-2 text-center">
               <img
-                src={bp}
+                src={Diabetes}
                 className="center card-img-top reduce_width"
                 alt="..."
               />
@@ -130,7 +143,7 @@ class Profile extends Component {
             </div>
             <div className="col-lg-2 text-center">
               <img
-                src={bp}
+                src={Electrolytes}
                 className="center card-img-top reduce_width"
                 alt="..."
               />
@@ -139,7 +152,7 @@ class Profile extends Component {
             </div>
             <div className="col-lg-2 text-center">
               <img
-                src={bp}
+                src={Kidneys}
                 className="center card-img-top reduce_width"
                 alt="..."
               />
@@ -152,7 +165,7 @@ class Profile extends Component {
             <div className="col-lg-1"></div>
             <div className="col-lg-2 text-center">
               <img
-                src={bp}
+                src={Lipid}
                 className="center card-img-top reduce_width"
                 alt="..."
               />
@@ -161,7 +174,7 @@ class Profile extends Component {
             </div>
             <div className="col-lg-2 text-center">
               <img
-                src={bp}
+                src={Liver}
                 className="center card-img-top reduce_width"
                 alt="..."
               />
@@ -170,7 +183,7 @@ class Profile extends Component {
             </div>
             <div className="col-lg-2 text-center">
               <img
-                src={bp}
+                src={Thyroid}
                 className="center card-img-top reduce_width"
                 alt="..."
               />
@@ -179,7 +192,7 @@ class Profile extends Component {
             </div>
             <div className="col-lg-2 text-center">
               <img
-                src={bp}
+                src={Urine}
                 className="center card-img-top reduce_width"
                 alt="..."
               />
@@ -188,7 +201,20 @@ class Profile extends Component {
             </div>
             <div className="col-lg-2 text-center">
               <img
-                src={bp}
+                src={VitaminB12}
+                className="center card-img-top reduce_width"
+                alt="..."
+              />
+              <h4>Title</h4>
+              <p>lorem ipsum</p>
+            </div>
+            <div className="col-lg-1"></div>
+          </div>
+          <div className="row">
+            <div className="col-lg-1"></div>
+            <div className="col-lg-2 text-center">
+              <img
+                src={VitaminD}
                 className="center card-img-top reduce_width"
                 alt="..."
               />
