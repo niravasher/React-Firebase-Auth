@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Link, useHistory } from "react-router-dom";
-import ReactPlayer from 'react-player'
+import ReactPlayer from "react-player";
 import { useAuth } from "../../contexts/AuthContext";
 import logo from "../images/logo.png";
 import "../css/style.css";
@@ -49,9 +49,49 @@ export default function Navbar() {
         </button>
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav ml-auto">
-            <form class="form-inline my-2 my-lg-0">
-              <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" />
-            </form>
+            <div class="dropdown">
+              <li
+                class="dropdown-toggle text-white text-decoration-none btn btn-warning custom-class ml-2 text-white my-1 round_test"
+                type="button"
+                id="dropdownMenu1"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                Navigate To
+              </li>
+              <ul
+                class="dropdown-menu multi-level"
+                role="menu"
+                aria-labelledby="dropdownMenu"
+              >
+                <li class="dropdown-item">
+                  <a href="#title">Corcerned Areas</a>
+                </li>
+                <li class="dropdown-item">
+                  <a href="/profile#profile">Profile</a>
+                </li>
+                <li class="dropdown-divider"></li>
+                <li class="dropdown-submenu">
+                  <a class="dropdown-item" tabindex="-1" href="#">
+                    Archives
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li class="dropdown-item">
+                      <a tabindex="-1" href="#">
+                        Company
+                      </a>
+                    </li>
+                    <li class="dropdown-item">
+                      <a href="#">Young</a>
+                    </li>
+                    <li class="dropdown-item">
+                      <a href="#">Old</a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
             <li className="nav-item">
               <Link
                 to="/dashboard"
@@ -77,7 +117,12 @@ export default function Navbar() {
               </Link>
             </li>
             <li className="nav-item">
-              <button type="button" class="text-white text-decoration-none btn btn-warning custom-class ml-2 text-white my-1 round_test" data-toggle="modal" data-target="#myModal">
+              <button
+                type="button"
+                class="text-white text-decoration-none btn btn-warning custom-class ml-2 text-white my-1 round_test"
+                data-toggle="modal"
+                data-target="#myModal"
+              >
                 How to
               </button>
             </li>
@@ -87,7 +132,10 @@ export default function Navbar() {
                 className="btn custom-class ml-2 text-white my-1 round_test"
                 onClick={handleLogout}
               >
-                Logout <span className="h5"><AiOutlineLogout /></span>
+                Logout{" "}
+                <span className="h5">
+                  <AiOutlineLogout />
+                </span>
               </button>
             </li>
           </ul>
@@ -97,8 +145,14 @@ export default function Navbar() {
         <div class="modal-dialog modal-lg">
           <div class="modal-content">
             <div className="card p-3">
-              <ReactPlayer url='https://www.youtube.com/watch?v=ysz5S6PUM-U' width="60vw" controls="true" />
-              <button type="button" class="btn btn-danger" data-dismiss="modal">CLOSE</button>
+              <ReactPlayer
+                url="https://www.youtube.com/watch?v=ysz5S6PUM-U"
+                width="60vw"
+                controls="true"
+              />
+              <button type="button" class="btn btn-danger" data-dismiss="modal">
+                CLOSE
+              </button>
             </div>
           </div>
         </div>

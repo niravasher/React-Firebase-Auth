@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useRef } from 'react';
 import '../css/style.css'
 import { ReactComponent as Anemia } from '../images/cards/anemia.svg';
 import { ReactComponent as B12 } from '../images/cards/B12.svg';
@@ -14,7 +14,7 @@ import { AiFillInfoCircle } from "react-icons/ai";
 const DashCard = (props) => {
     return (
         <div className="container">
-            <h2 className="text-center pt-4 pb-2">Critical Areas <AiFillInfoCircle data-tip="hello world" class="mb-1" /></h2>
+            <h2 className="text-center pt-4 pb-2" id="title">Corcerned Areas <AiFillInfoCircle data-tip="hello world" class="mb-1" /></h2>
             <div className="row">
                 {(props.second || props.fourth) && <div className="mb-4 col-lg-6 col-md-5 col-sm-6 flexcard">
                     <div className="card shadow round_test">

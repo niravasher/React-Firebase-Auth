@@ -238,7 +238,7 @@ class Profile extends Component {
         </div>
         <div className="d-flex flex-wrap justify-content-around mb-3 text-center align-self-start">
           <div className="p-2 m-2 bg-success-imp rounded">
-            <h3 className="text-center text-white pb-1">GOOD <AiFillInfoCircle data-tip="hello world" class="mb-1" /></h3>
+            <h3 className="text-center text-white pb-1" id="profile">GOOD <AiFillInfoCircle data-tip="hello world" class="mb-1" /></h3>
             <div className="card shadow">
               <div className="card-body">
                 <table id="table1" className="table table-bordered">
