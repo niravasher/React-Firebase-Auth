@@ -10,10 +10,17 @@ export default function Dashboard() {
   const [setError] = useState("")
   const { logout } = useAuth()
   const history = useHistory()
-  const [first, setFirst] = useState(true);
-  const [second, setSecond] = useState(true);
-  const [third, setThird] = useState(true);
-  const [fourth, setFourth] = useState(true);
+  const [first, setFirst] = useState(false);
+  const [second, setSecond] = useState(false);
+  const [third, setThird] = useState(false);
+  const [fourth, setFourth] = useState(false);
+  const [FirstThird, setFirstThird] = useState(false);
+  const [SecondFourth, setSecondFourth] = useState(false);
+  const [all, setAll] = useState(false);
+  const [disabledFirst, setdisabledFirst] = useState(false);
+  const [disabledSecond, setdisabledSecond] = useState(false);
+  const [disabledThird, setdisabledThird] = useState(false);
+  const [disabledFourth, setdisabledFourth] = useState(false);
 
   async function handleLogout() {
     setError("")
@@ -27,14 +34,128 @@ export default function Dashboard() {
   }
 
   function clickIcon(e) {
-    if (e.target.id == "checkbox1" && e.target.checked == true) setFirst(true);
-    else if (e.target.id == "checkbox2" && e.target.checked == true) setSecond(true);
-    else if (e.target.id == "checkbox3" && e.target.checked == true) setThird(true);
-    else if (e.target.id == "checkbox4" && e.target.checked == true) setFourth(true);
-    else if (e.target.id == "checkbox1" && e.target.checked == false) setFirst(false);
-    else if (e.target.id == "checkbox2" && e.target.checked == false) setSecond(false);
-    else if (e.target.id == "checkbox3" && e.target.checked == false) setThird(false);
-    else if (e.target.id == "checkbox4" && e.target.checked == false) setFourth(false);
+    if (e.target.id == "button1" && e.target.checked == true) {
+      setdisabledFirst(false);
+      setdisabledSecond(false);
+      setdisabledThird(false);
+      setdisabledFourth(false);
+      setFirst(true);
+      setSecond(false);
+      setThird(true);
+      setFourth(false);
+      setFirstThird(true);
+    }
+    else if (e.target.id == "button1" && e.target.checked == false) {
+      setdisabledFirst(false);
+      setdisabledSecond(false);
+      setdisabledThird(false);
+      setdisabledFourth(false);
+      setFirst(false);
+      setThird(false);
+      setFirstThird(false);
+    }
+    else if (e.target.id == "button2" && e.target.checked == true) {
+      setdisabledFirst(false);
+      setdisabledSecond(false);
+      setdisabledThird(false);
+      setdisabledFourth(false);
+      setFirst(false)
+      setSecond(true);
+      setThird(false);
+      setFourth(true);
+      setSecondFourth(true);
+    }
+    else if (e.target.id == "button2" && e.target.checked == false) {
+      setdisabledFirst(false);
+      setdisabledSecond(false);
+      setdisabledThird(false);
+      setdisabledFourth(false);
+      setSecond(false);
+      setFourth(false);
+      setSecondFourth(false);
+    }
+    else if (e.target.id == "button3" && e.target.checked == true) {
+      setdisabledFirst(false);
+      setdisabledSecond(false);
+      setdisabledThird(false);
+      setdisabledFourth(false);
+      setSecond(true);
+      setFourth(true);
+      setFirst(true);
+      setThird(true);
+      setFirstThird(false);
+      setAll(true);
+    }
+    else if (e.target.id == "button3" && e.target.checked == false) {
+      setSecond(false);
+      setFourth(false);
+      setFirst(false);
+      setThird(false);
+      setAll(false);
+      setFirstThird(false);
+      setSecondFourth(false);
+    }
+    else if (e.target.id == "button4") {
+      setdisabledFirst(false);
+      setdisabledSecond(false);
+      setdisabledThird(false);
+      setdisabledFourth(false);
+      setSecond(false);
+      setFourth(false);
+      setFirst(false);
+      setThird(false);
+      setAll(false);
+      setFirstThird(false);
+      setSecondFourth(false);
+    }
+    else if (e.target.id == "checkbox1" && e.target.checked == true) {
+      setFirst(true);
+      setdisabledSecond(true);
+      setdisabledThird(true);
+      setdisabledFourth(true);
+    }
+    else if (e.target.id == "checkbox2" && e.target.checked == true) {
+      setSecond(true);
+      setdisabledFirst(true);
+      setdisabledThird(true);
+      setdisabledFourth(true);
+    }
+    else if (e.target.id == "checkbox3" && e.target.checked == true) {
+      setThird(true);
+      setdisabledSecond(true);
+      setdisabledFirst(true);
+      setdisabledFourth(true);
+    }
+    else if (e.target.id == "checkbox4" && e.target.checked == true) {
+      setFourth(true);
+      setdisabledSecond(true);
+      setdisabledThird(true);
+      setdisabledFirst(true);
+    }
+    else if (e.target.id == "checkbox1" && e.target.checked == false) {
+      setFirst(false);
+      setdisabledSecond(false);
+      setdisabledThird(false);
+      setdisabledFourth(false);
+    }
+    else if (e.target.id == "checkbox2" && e.target.checked == false) {
+      setSecond(false);
+      setdisabledFirst(false);
+      setdisabledThird(false);
+      setdisabledFourth(false);
+    }
+    else if (e.target.id == "checkbox3" && e.target.checked == false) {
+      setThird(false);
+      setdisabledSecond(false);
+      setdisabledFirst(false);
+      setdisabledFourth(false);
+    }
+    else if (e.target.id == "checkbox4" && e.target.checked == false) {
+      setFourth(false);
+      setdisabledSecond(false);
+      setdisabledThird(false);
+      setdisabledFirst(false);
+    }
   }
   
   return (
@@ -50,7 +171,7 @@ export default function Dashboard() {
           <Tests young_male={first} young_female={second} old_male={third} old_female={fourth} />
         </div>
         <div className="col-lg-5 col-md-4 col-sm-12 text-left">
-          <Demographics clickIcon={clickIcon} first={first} second={second} third={third} fourth={fourth} />
+          <Demographics clickIcon={clickIcon} FirstThird={FirstThird} SecondFourth={SecondFourth} all={all} first={first} second={second} third={third} fourth={fourth} disabledFirst={disabledFirst} disabledSecond={disabledSecond} disabledThird={disabledThird} disabledFourth={disabledFourth} />
         </div>
       </div>
       <div className="row">
