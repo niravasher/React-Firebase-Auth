@@ -36,14 +36,16 @@ export default function Dashboard() {
   function clickIcon(e) {
     if (e.target.id == "button1" && e.target.checked == true) {
       setdisabledFirst(false);
-      setdisabledSecond(false);
+      setdisabledSecond(true);
       setdisabledThird(false);
-      setdisabledFourth(false);
+      setdisabledFourth(true);
       setFirst(true);
       setSecond(false);
       setThird(true);
       setFourth(false);
       setFirstThird(true);
+      setSecondFourth(false);
+      setAll(false);
     }
     else if (e.target.id == "button1" && e.target.checked == false) {
       setdisabledFirst(false);
@@ -55,15 +57,17 @@ export default function Dashboard() {
       setFirstThird(false);
     }
     else if (e.target.id == "button2" && e.target.checked == true) {
-      setdisabledFirst(false);
+      setdisabledFirst(true);
       setdisabledSecond(false);
-      setdisabledThird(false);
+      setdisabledThird(true);
       setdisabledFourth(false);
       setFirst(false)
       setSecond(true);
       setThird(false);
       setFourth(true);
       setSecondFourth(true);
+      setFirstThird(false);
+      setAll(false);
     }
     else if (e.target.id == "button2" && e.target.checked == false) {
       setdisabledFirst(false);
@@ -84,6 +88,7 @@ export default function Dashboard() {
       setFirst(true);
       setThird(true);
       setFirstThird(false);
+      setSecondFourth(false);
       setAll(true);
     }
     else if (e.target.id == "button3" && e.target.checked == false) {

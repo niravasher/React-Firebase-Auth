@@ -240,7 +240,7 @@ class Demographics extends Component {
             </div>
           </div>
           <div className="col-lg-12 col-md-7 col-sm-11 text-left my-4">
-            <DashCard />
+            <DashCard first={this.props.first} second={this.props.second} third={this.props.third} fourth={this.props.fourth} />
           </div>
         </div>
         <ReactTooltip />
