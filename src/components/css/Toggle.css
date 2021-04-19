@@ -141,7 +141,8 @@
 }
 
 .checkmark:after {
-  content: "";
+  color: white;
+  content: "✔";
   position: absolute;
   display: none;
 }
