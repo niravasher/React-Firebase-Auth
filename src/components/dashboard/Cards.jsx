@@ -14,7 +14,7 @@ import { AiFillInfoCircle } from "react-icons/ai";
 const DashCard = (props) => {
     return (
         <div className="container">
-            <h2 className="text-center pt-4 pb-2" id="title">Corcerned Areas <AiFillInfoCircle data-tip="hello world" class="mb-1" /></h2>
+            {(props.second || props.fourth || props.first || props.third) && <h2 className="text-center pt-4 pb-2" id="title">Corcerned Areas <AiFillInfoCircle data-tip="hello world" class="mb-1" /></h2>}
             <div className="row">
                 {(props.second || props.fourth) && <div className="mb-4 col-lg-6 col-md-5 col-sm-6 flexcard">
                     <div className="card shadow round_test">
@@ -79,7 +79,7 @@ const DashCard = (props) => {
                         </div>
                     </div>
                 </div>}
-                <div className="mb-4 col-lg-6 col-md-5 col-sm-6 flexcard">
+                {(props.second || props.fourth || props.first || props.third) && <div className="mb-4 col-lg-6 col-md-5 col-sm-6 flexcard">
                     <div className="card rounded shadow round_test">
                         <h5 className="text-center card-header bolded text-uppercase">Vitamin D</h5>
                         <div className="card-body text-center">
@@ -87,7 +87,7 @@ const DashCard = (props) => {
                             <h6 className="text-center bolded">158</h6>
                         </div>
                     </div>
-                </div>
+                </div>}
             </div>
             <ReactTooltip />
         </div>

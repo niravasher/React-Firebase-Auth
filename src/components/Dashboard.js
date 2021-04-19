@@ -17,10 +17,10 @@ export default function Dashboard() {
   const [FirstThird, setFirstThird] = useState(false);
   const [SecondFourth, setSecondFourth] = useState(false);
   const [all, setAll] = useState(true);
-  const [disabledFirst, setdisabledFirst] = useState(false);
-  const [disabledSecond, setdisabledSecond] = useState(false);
-  const [disabledThird, setdisabledThird] = useState(false);
-  const [disabledFourth, setdisabledFourth] = useState(false);
+  const [disabledFirst, setdisabledFirst] = useState(true);
+  const [disabledSecond, setdisabledSecond] = useState(true);
+  const [disabledThird, setdisabledThird] = useState(true);
+  const [disabledFourth, setdisabledFourth] = useState(true);
 
   async function handleLogout() {
     setError("")
@@ -79,10 +79,10 @@ export default function Dashboard() {
       setSecondFourth(false);
     }
     else if (e.target.id == "button3" && e.target.checked == true) {
-      setdisabledFirst(false);
-      setdisabledSecond(false);
-      setdisabledThird(false);
-      setdisabledFourth(false);
+      setdisabledFirst(true);
+      setdisabledSecond(true);
+      setdisabledThird(true);
+      setdisabledFourth(true);
       setSecond(true);
       setFourth(true);
       setFirst(true);
@@ -99,6 +99,11 @@ export default function Dashboard() {
       setAll(false);
       setFirstThird(false);
       setSecondFourth(false);
+      setdisabledFirst(false);
+      setdisabledSecond(false);
+      setdisabledThird(false);
+      setdisabledFourth(false);
+      
     }
     else if (e.target.id == "button4") {
       setdisabledFirst(false);

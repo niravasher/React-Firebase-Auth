@@ -145,32 +145,36 @@ class Demographics extends Component {
                   </div>
                   <div className="row">
                     <div className="col">
+                      <img src={Oldmale} alt="" />
                       <div className="demographics1">
-                        <img className="checkmark" src={Oldmale} alt="" />
-                        <input
-                          id="checkbox1"
-                          type="checkbox"
-                          className="checkbox"
-                          disabled={this.props.disabledFirst}
-                          onChange={this.props.clickIcon}
-                          checked={this.props.first}
-                        />
+                        <label class="containerz">
+                          <input
+                            id="checkbox1"
+                            type="checkbox"
+                            disabled={this.props.disabledFirst}
+                            onChange={this.props.clickIcon}
+                            checked={this.props.first}
+                          />
+                          <span class="checkmark"></span>
+                        </label>
                       </div>
                       <span>
                         Count: {old_male_count} ({old_male_count_percent}%)
                       </span>
                     </div>
                     <div className="col">
+                      <img src={Oldfemale} alt="" />
                       <div className="demographics1">
-                        <img className="checkmark" src={Oldfemale} alt="" />
-                        <input
-                          id="checkbox2"
-                          type="checkbox"
-                          className="checkbox"
-                          disabled={this.props.disabledSecond}
-                          onChange={this.props.clickIcon}
-                          checked={this.props.second}
-                        />
+                        <label class="containerz">
+                          <input
+                            id="checkbox2"
+                            type="checkbox"
+                            disabled={this.props.disabledSecond}
+                            onChange={this.props.clickIcon}
+                            checked={this.props.second}
+                          />
+                          <span class="checkmark"></span>
+                        </label>
                       </div>
                       <span>
                         Count: {old_female_count} ({old_female_count_percent}%)
@@ -202,32 +206,36 @@ class Demographics extends Component {
                   </div>
                   <div className="row">
                     <div className="col">
+                      <img src={Youngmale} alt="" />
                       <div className="demographics1">
-                        <img className="checkmark" src={Youngmale} alt="" />
-                        <input
-                          id="checkbox3"
-                          type="checkbox"
-                          className="checkbox"
-                          disabled={this.props.disabledThird}
-                          onChange={this.props.clickIcon}
-                          checked={this.props.third}
-                        />
+                        <label class="containerz">
+                          <input
+                            id="checkbox3"
+                            type="checkbox"
+                            disabled={this.props.disabledThird}
+                            onChange={this.props.clickIcon}
+                            checked={this.props.third}
+                          />
+                          <span class="checkmark"></span>
+                        </label>
                       </div>
                       <span>
                         Count: {young_male_count} ({young_male_count_percent}%)
                       </span>
                     </div>
                     <div className="col">
+                      <img src={Youngfemale} alt="" />
                       <div className="demographics1 ">
-                        <img className="checkmark" src={Youngfemale} alt="" />
-                        <input
-                          id="checkbox4"
-                          type="checkbox"
-                          className="checkbox"
-                          disabled={this.props.disabledFourth}
-                          onChange={this.props.clickIcon}
-                          checked={this.props.fourth}
-                        />
+                        <label class="containerz">
+                          <input
+                            id="checkbox4"
+                            type="checkbox"
+                            disabled={this.props.disabledFourth}
+                            onChange={this.props.clickIcon}
+                            checked={this.props.fourth}
+                          />
+                          <span class="checkmark"></span>
+                        </label>
                       </div>
                       <span>
                         Count: {young_female_count} (
