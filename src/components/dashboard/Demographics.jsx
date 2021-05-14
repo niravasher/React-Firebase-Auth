@@ -64,7 +64,7 @@ class Demographics extends Component {
             <div className="card-header">
               <h4 className="h4 text-center text-uppercase">
                 Statistics{" "}
-                <AiFillInfoCircle data-tip="hello world" class="mb-1" />
+                <AiFillInfoCircle data-tip="Choose the group to display health statistics" class="mb-1" />
               </h4>
             </div>
             <div className="card-body">
