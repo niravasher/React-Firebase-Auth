@@ -168,7 +168,7 @@ class Tests extends Component {
         <div className="row no-gutters text-center bebas_neue">
           <div className="col-lg-12">
             <h2>
-              Some header here{" "}
+              Company Health Profile{" "}
               <AiFillInfoCircle data-tip="The health data of your company is displayed below" class="mb-1" />
             </h2>
             <div className="card border-0 bg-new3">
