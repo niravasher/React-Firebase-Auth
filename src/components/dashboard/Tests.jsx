@@ -168,24 +168,24 @@ class Tests extends Component {
         <div className="row no-gutters text-center bebas_neue">
           <div className="col-lg-12">
             <h2>
-              Data Analysis{" "}
-              <AiFillInfoCircle data-tip="hello world" class="mb-1" />
+              Some header here{" "}
+              <AiFillInfoCircle data-tip="The health data of your company is displayed below" class="mb-1" />
             </h2>
             <div className="card border-0 bg-new3">
               <div className="card-body">
                 <div className="container">
                   <div className="row text-uppercase bolded">
                     <div className="col-lg-1 hidden-xs">
-                      <span data-tip="hello world">Sr.</span>
+                      <span data-tip="Serial No. of the test">Sr.</span>
                     </div>
                     <div className="col-lg-5 col-4 text-left pl-5">
-                      <span data-tip="hello world">Profile</span>
+                      <span data-tip="Test profile Name">Profile</span>
                     </div>
                     <div className="col-lg-2 col-4">
-                      <span data-tip="hello world">Tests</span>
+                      <span data-tip="Total No. of test conducted">Tests</span>
                     </div>
                     <div className="col-lg-4 col-4">
-                      <span data-tip="hello world">Out Of Range</span>
+                      <span data-tip="The employees with test results out of range">Out Of Range</span>
                     </div>
                   </div>
                 </div>
@@ -285,38 +285,88 @@ class Tests extends Component {
                 <h5>{this.state.nodeInnerText}</h5>
                 {this.state.nodeInnerText === "Complete Blood Count" && (
                   <p class="card-text">
-                    This is complete Blood Count description This is complete Blood Count description This is complete Blood Count description This is complete Blood Count description 
+                    The complete blood count (CBC) evaluates the cells that circulate in blood, including:- 
+                     • Red blood cells (RBCs), 
+                     • White blood cells (WBCs), and 
+                     • Platelets (PLTs).
+
                   </p>
                 )}
                 {this.state.nodeInnerText === "Kidney" && (
-                  <p class="card-text">This is Kidney description</p>
+                  <p class="card-text">Kidney tests measure levels of various substances in the blood to determine the current health of your kidneys, including several 
+                   • minerals, 
+                   • electrolytes, 
+                   • proteins, and 
+                   • glucose (sugar).
+                  </p>
                 )}
                 {this.state.nodeInnerText === "Lipids" && (
-                  <p class="card-text">This is Lipids description</p>
+                  <p class="card-text">Lipid tests are a combination of test primarily to check for coronary heart disease, they measure:-  
+                   • high-density lipoproteins (HDL), 
+                   • low-density lipoproteins (LDL), 
+                   • very low-density lipoproteins (VLDL) and 
+                   • Triglycerides.
+                  </p>
                 )}
                 {this.state.nodeInnerText === "Thyroid" && (
-                  <p class="card-text">This is Thyroid description</p>
+                  <p class="card-text">Thyroid test is conducted to measure the function of the thyroid gland via a blood sample. The test measures values of:- 
+                   • Thyroxine (T4), 
+                   • Triiodothyronine (T3) and 
+                   • Thyroid stimulating hormone (TSH).
+                   </p>
                 )}
                 {this.state.nodeInnerText === "Liver" && (
-                  <p class="card-text">This is Liver description</p>
+                  <p class="card-text">TLiver function test is used to ascertain the functioning of a person’s liver. The test measures parameters such as:- 
+                   • Total Protein, 
+                   • Albumin, 
+                   • Globulin, 
+                   • A/G Ratio, 
+                   • Total Bilirubin, 
+                   • Conjugated Bilirubin, 
+                   • Unconjugated Bilirubin, 
+                   • SGOT(AST), 
+                   • SGPT(ALT), 
+                   • Alkaline Phosphatase, 
+                   • GGT, 
+                   • SGOT/SGPT Ratio.
+                   </p>
                 )}
                 {this.state.nodeInnerText === "Diabetes" && (
-                  <p class="card-text">This is Diabetes description</p>
+                  <p class="card-text">HbA1c is a blood test that estimates the 90-day average blood glucose levels. HbA1c provides a longer-term trend on the blood sugar levels over a period of time. The test includes:- 
+                   • HbA1c%
+                   • Fetal Hemoglobin
+                   • Mean Plasma Glucose Level.
+                    </p>
                 )}
                 {this.state.nodeInnerText === "Vitamin D" && (
-                  <p class="card-text">This is Vitamin D description</p>
+                  <p class="card-text">The test for Vitamin D is done with the help of a blood sample. The human body requires Vitamin D for regulating body minerals such as phosphorus and calcium, and also for the vital function of maintaining proper bone structure.</p>
                 )}
                 {this.state.nodeInnerText === "Vitamin B12" && (
-                  <p class="card-text">This is Vitamin B12 description</p>
+                  <p class="card-text">Vitamin B12 test is used to monitor the level of B12 in the body, it is analyzed via a blood sample. Vitamin B12 allows our DNA, red blood cells and nerves to carry out their normal, day to day activities.</p>
                 )}
                 {this.state.nodeInnerText === "Electrolytes & Minerals" && (
-                  <p class="card-text">This is Electrolytes description</p>
+                  <p class="card-text">An electrolyte panel is a blood test that measures the levels of electrolytes and carbon dioxide in your blood. Electrolytes measured are:-
+                   • Calcium
+                   • Sodium
+                   • Potassium
+                   • Chloride
+                   </p>
                 )}
                 {this.state.nodeInnerText === "Anemia" && (
-                  <p class="card-text">This is Anemia description</p>
+                  <p class="card-text">Anemia is usually caused by an iron deficiency in the blood. It is tested for using a blood sample. A low hemoglobin count is an indicator of anemia. Females usually have a lower hemoglobin level as compared to males.</p>
                 )}
                 {this.state.nodeInnerText === "Urine" && (
-                  <p class="card-text">This is Urine description</p>
+                  <p class="card-text">Urine test may be used to identify UTIs, kidney, metabolic and other disorders. The test gives parameters such as:- 
+                   • RBCs Urine, 
+                   • Colour, 
+                   • Epithelial Cell, 
+                   • Urobilinogen, 
+                   • Leucocytes, 
+                   • Ketone, 
+                   • Protein Urine, 
+                   • Pus Cell and 
+                   • Crystals.
+                   </p>
                 )}
                 <button
                   type="button"
