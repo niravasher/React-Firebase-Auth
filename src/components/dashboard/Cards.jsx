@@ -21,7 +21,7 @@ const DashCard = (props) => {
                     <h5 className="text-center card-header bolded text-uppercase">Anemia</h5>
                         <div className="card-body text-center">
                             <Anemia className="mb-4" />
-                            <h6 className="text-center bolded">120/80</h6>
+                            <h6 className="text-center bolded"></h6>
                         </div>
                     </div>
                 </div>}
@@ -30,7 +30,7 @@ const DashCard = (props) => {
                     <h5 className="text-center card-header bolded text-uppercase">Vitamin B12</h5>
                         <div className="card-body text-center">
                             <B12 className="mb-4" />
-                            <h6 className="text-center bolded">120/80</h6>
+                            <h6 className="text-center bolded"></h6>
                         </div>
                     </div>
                 </div>}
@@ -39,7 +39,7 @@ const DashCard = (props) => {
                         <h5 className="text-center card-header bolded text-uppercase">Kidney</h5>
                         <div className="card-body text-center">
                             <Kidney className="mb-4" />
-                            <h6 className="text-center bolded">158</h6>
+                            <h6 className="text-center bolded"></h6>
                         </div>
                     </div>
                 </div>}
@@ -48,7 +48,7 @@ const DashCard = (props) => {
                     <h5 className="text-center card-header bolded text-uppercase">Lipids</h5>
                         <div className="card-body text-center">
                             <Lipids className="mb-4" />
-                            <h6 className="text-center bolded">120 kg</h6>
+                            <h6 className="text-center bolded"></h6>
                         </div>
                     </div>
                 </div>}
@@ -57,7 +57,7 @@ const DashCard = (props) => {
                     <h5 className="text-center card-header bolded text-uppercase">Liver</h5>
                         <div className="card-body text-center">
                             <Liver className="mb-4" />
-                            <h6 className="text-center bolded">120/80</h6>
+                            <h6 className="text-center bolded"></h6>
                         </div>
                     </div>
                 </div>}
@@ -66,7 +66,7 @@ const DashCard = (props) => {
                     <h5 className="text-center card-header bolded text-uppercase">Thyroid</h5>
                         <div className="card-body text-center">
                             <Thyroid className="mb-4" />
-                            <h6 className="text-center bolded">120/80</h6>
+                            <h6 className="text-center bolded"></h6>
                         </div>
                     </div>
                 </div>}
@@ -75,7 +75,7 @@ const DashCard = (props) => {
                         <h5 className="text-center card-header bolded text-uppercase">Diabetes</h5>
                         <div className="card-body text-center">
                             <Diabetes className="mb-4" />
-                            <h6 className="text-center bolded">158</h6>
+                            <h6 className="text-center bolded"></h6>
                         </div>
                     </div>
                 </div>}
@@ -84,7 +84,7 @@ const DashCard = (props) => {
                         <h5 className="text-center card-header bolded text-uppercase">Vitamin D</h5>
                         <div className="card-body text-center">
                             <VitD className="mb-4" />
-                            <h6 className="text-center bolded">158</h6>
+                            <h6 className="text-center bolded"></h6>
                         </div>
                     </div>
                 </div>}
