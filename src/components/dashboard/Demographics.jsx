@@ -25,7 +25,7 @@ class Demographics extends Component {
   componentDidMount() {
     axios
       .get(
-        "https://my-json-server.typicode.com/niravasher/niroggyan_central/db"
+        "https://rnxsohimg1.execute-api.ap-south-1.amazonaws.com/default/dashboardJson/"
       )
       .then((res) => {
         this.setState({
