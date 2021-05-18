@@ -123,8 +123,8 @@ class Profile extends Component {
                 className="center card-img-top reduce_width"
                 alt="..."
               />
-              <h4>Title</h4>
-              <p>lorem ipsum</p>
+              <h4>CBC</h4>
+              <p></p>
             </div>
             <div className="col-lg-2 text-center">
               <img
@@ -132,8 +132,8 @@ class Profile extends Component {
                 className="center card-img-top reduce_width"
                 alt="..."
               />
-              <h4>Title</h4>
-              <p>lorem ipsum</p>
+              <h4>Anemia</h4>
+              <p></p>
             </div>
             <div className="col-lg-2 text-center">
               <img
@@ -141,8 +141,8 @@ class Profile extends Component {
                 className="center card-img-top reduce_width"
                 alt="..."
               />
-              <h4>Title</h4>
-              <p>lorem ipsum</p>
+              <h4>Diabetes</h4>
+              <p></p>
             </div>
             <div className="col-lg-2 text-center">
               <img
@@ -150,8 +150,8 @@ class Profile extends Component {
                 className="center card-img-top reduce_width"
                 alt="..."
               />
-              <h4>Title</h4>
-              <p>lorem ipsum</p>
+              <h4>Electrolytes</h4>
+              <p></p>
             </div>
             <div className="col-lg-2 text-center">
               <img
@@ -159,8 +159,8 @@ class Profile extends Component {
                 className="center card-img-top reduce_width"
                 alt="..."
               />
-              <h4>Title</h4>
-              <p>lorem ipsum</p>
+              <h4>Kidneys</h4>
+              <p></p>
             </div>
             <div className="col-lg-1"></div>
           </div>
@@ -172,8 +172,8 @@ class Profile extends Component {
                 className="center card-img-top reduce_width"
                 alt="..."
               />
-              <h4>Title</h4>
-              <p>lorem ipsum</p>
+              <h4>Lipids</h4>
+              <p></p>
             </div>
             <div className="col-lg-2 text-center">
               <img
@@ -181,8 +181,8 @@ class Profile extends Component {
                 className="center card-img-top reduce_width"
                 alt="..."
               />
-              <h4>Title</h4>
-              <p>lorem ipsum</p>
+              <h4>Liver</h4>
+              <p></p>
             </div>
             <div className="col-lg-2 text-center">
               <img
@@ -190,8 +190,8 @@ class Profile extends Component {
                 className="center card-img-top reduce_width"
                 alt="..."
               />
-              <h4>Title</h4>
-              <p>lorem ipsum</p>
+              <h4>Thyroid</h4>
+              <p></p>
             </div>
             <div className="col-lg-2 text-center">
               <img
@@ -199,8 +199,8 @@ class Profile extends Component {
                 className="center card-img-top reduce_width"
                 alt="..."
               />
-              <h4>Title</h4>
-              <p>lorem ipsum</p>
+              <h4>Urine</h4>
+              <p></p>
             </div>
             <div className="col-lg-2 text-center">
               <img
@@ -208,8 +208,8 @@ class Profile extends Component {
                 className="center card-img-top reduce_width"
                 alt="..."
               />
-              <h4>Title</h4>
-              <p>lorem ipsum</p>
+              <h4>Vitamin B12</h4>
+              <p></p>
             </div>
             <div className="col-lg-1"></div>
           </div>
@@ -221,8 +221,8 @@ class Profile extends Component {
                 className="center card-img-top reduce_width"
                 alt="..."
               />
-              <h4>Title</h4>
-              <p>lorem ipsum</p>
+              <h4>Vitamin D</h4>
+              <p></p>
             </div>
             <div className="col-lg-1"></div>
           </div>
