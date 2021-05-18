@@ -27,9 +27,12 @@ class Profile extends Component {
   };
 
   componentDidMount() {
+    var config = {
+      headers: {'Access-Control-Allow-Origin': '*'}
+  };
     axios
       .get(
-        "https://my-json-server.typicode.com/niravasher/niroggyan_profile/db"
+        "https://rnxsohimg1.execute-api.ap-south-1.amazonaws.com/default/dashboardJson/"
       )
       .then((res) => {
         this.setState({
