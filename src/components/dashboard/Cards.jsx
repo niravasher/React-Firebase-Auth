@@ -12,11 +12,102 @@ import ReactTooltip from 'react-tooltip';
 import { AiFillInfoCircle } from "react-icons/ai";
 
 const DashCard = (props) => {
+    var show = false;
+    var showFirst = false;
+    var showSecond = false;
+    var showThird = false;
+    var showFourth = false;
+    var showFifth = false;
+    var showSixth = false;
+    var showSeventh = false;
+    var showEighth = false;
+
+    if (props.second || props.fourth || props.first || props.third) {
+        show = true;
+    }
+
+    if (props.first === true && props.second === false && props.third === false && props.fourth === false) {
+        showFirst = false;
+        showSecond = false;
+        showThird = false;
+        showFourth = true;
+        showFifth = true;
+        showSixth = false;
+        showSeventh = true;
+        showEighth = true;
+    }
+
+    else if (props.first === false && props.second === true && props.third === false && props.fourth === false) {
+        showFirst = true;
+        showSecond = false;
+        showThird = true;
+        showFourth = true;
+        showFifth = false;
+        showSixth = true;
+        showSeventh = true;
+        showEighth = true;
+    }
+
+    else if (props.first === false && props.second === false && props.third === true && props.fourth === false) {
+        showFirst = false;
+        showSecond = true;
+        showThird = false;
+        showFourth = true;
+        showFifth = true;
+        showSixth = false;
+        showSeventh = false;
+        showEighth = true;
+    }
+
+    else if (props.first === false && props.second === false && props.third === false && props.fourth === true) {
+        showFirst = true;
+        showSecond = false;
+        showThird = true;
+        showFourth = false;
+        showFifth = false;
+        showSixth = true;
+        showSeventh = false;
+        showEighth = true;
+    }
+
+    else if (props.first === true && props.second === false && props.third === true && props.fourth === false) {
+        showFirst = false;
+        showSecond = false;
+        showThird = false;
+        showFourth = true;
+        showFifth = true;
+        showSixth = false;
+        showSeventh = true;
+        showEighth = true;
+    }
+
+    else if (props.first === false && props.second === true && props.third === false && props.fourth === true) {
+        showFirst = true;
+        showSecond = false;
+        showThird = true;
+        showFourth = false;
+        showFifth = false;
+        showSixth = true;
+        showSeventh = false;
+        showEighth = true;
+    }
+
+    else if (props.first === true && props.second === true && props.third === true && props.fourth === true) {
+        showFirst = false;
+        showSecond = false;
+        showThird = false;
+        showFourth = true;
+        showFifth = false;
+        showSixth = false;
+        showSeventh = true;
+        showEighth = true;
+    }
+
     return (
         <div className="container">
-            {(props.second || props.fourth || props.first || props.third) && <h2 className="text-center pt-4 pb-2" id="title">Concern Areas <AiFillInfoCircle data-tip="Below are the areas of concern for the selected group of employees" class="mb-1" /></h2>}
+            {(show) && <h2 className="text-center pt-4 pb-2" id="title">Concern Areas <AiFillInfoCircle data-tip="Below are the areas of concern for the selected group of employees" className="mb-1" /></h2>}
             <div className="row">
-                {(props.second || props.fourth) && <div className="mb-4 col-lg-6 col-md-5 col-sm-6 flexcard">
+                {showFirst && <div className="mb-4 col-lg-6 col-md-5 col-sm-6 flexcard">
                     <div className="card shadow round_test">
                     <h5 className="text-center card-header bolded text-uppercase">Anemia</h5>
                         <div className="card-body text-center">
@@ -25,7 +116,7 @@ const DashCard = (props) => {
                         </div>
                     </div>
                 </div>}
-                {(props.first || props.third) && <div className="mb-4 col-lg-6 col-md-5 col-sm-6 flexcard">
+                {showSecond && <div className="mb-4 col-lg-6 col-md-5 col-sm-6 flexcard">
                     <div className="card rounded shadow round_test">
                     <h5 className="text-center card-header bolded text-uppercase">Vitamin B12</h5>
                         <div className="card-body text-center">
@@ -34,7 +125,7 @@ const DashCard = (props) => {
                         </div>
                     </div>
                 </div>}
-                {(props.second || props.fourth) && <div className="mb-4 col-lg-6 col-md-5 col-sm-6 flexcard">
+                {showThird && <div className="mb-4 col-lg-6 col-md-5 col-sm-6 flexcard">
                     <div className="card rounded shadow round_test">
                         <h5 className="text-center card-header bolded text-uppercase">Kidney</h5>
                         <div className="card-body text-center">
@@ -43,7 +134,7 @@ const DashCard = (props) => {
                         </div>
                     </div>
                 </div>}
-                {(props.first || props.third) && <div className="mb-4 col-lg-6 col-md-5 col-sm-6 flexcard">
+                {showFourth && <div className="mb-4 col-lg-6 col-md-5 col-sm-6 flexcard">
                     <div className="card rounded shadow round_test">
                     <h5 className="text-center card-header bolded text-uppercase">Lipids</h5>
                         <div className="card-body text-center">
@@ -52,7 +143,7 @@ const DashCard = (props) => {
                         </div>
                     </div>
                 </div>}
-                {(props.first || props.third) && <div className="mb-4 col-lg-6 col-md-5 col-sm-6 flexcard">
+                {showFifth && <div className="mb-4 col-lg-6 col-md-5 col-sm-6 flexcard">
                     <div className="card shadow round_test">
                     <h5 className="text-center card-header bolded text-uppercase">Liver</h5>
                         <div className="card-body text-center">
@@ -61,7 +152,7 @@ const DashCard = (props) => {
                         </div>
                     </div>
                 </div>}
-                {(props.second || props.fourth) && <div className="mb-4 col-lg-6 col-md-5 col-sm-6 flexcard">
+                {showSixth && <div className="mb-4 col-lg-6 col-md-5 col-sm-6 flexcard">
                     <div className="card rounded shadow round_test">
                     <h5 className="text-center card-header bolded text-uppercase">Thyroid</h5>
                         <div className="card-body text-center">
@@ -70,7 +161,7 @@ const DashCard = (props) => {
                         </div>
                     </div>
                 </div>}
-                {(props.second || props.first) && !(props.first && props.second && props.third && props.fourth) && <div className="mb-4 col-lg-6 col-md-5 col-sm-6 flexcard">
+                {showSeventh && <div className="mb-4 col-lg-6 col-md-5 col-sm-6 flexcard">
                     <div className="card rounded shadow round_test">
                         <h5 className="text-center card-header bolded text-uppercase">Diabetes</h5>
                         <div className="card-body text-center">
@@ -79,7 +170,7 @@ const DashCard = (props) => {
                         </div>
                     </div>
                 </div>}
-                {(props.second || props.fourth || props.first || props.third) && <div className="mb-4 col-lg-6 col-md-5 col-sm-6 flexcard">
+                {showEighth && <div className="mb-4 col-lg-6 col-md-5 col-sm-6 flexcard">
                     <div className="card rounded shadow round_test">
                         <h5 className="text-center card-header bolded text-uppercase">Vitamin D</h5>
                         <div className="card-body text-center">

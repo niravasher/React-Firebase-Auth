@@ -49,9 +49,9 @@ export default function Navbar() {
         </button>
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav ml-auto">
-            <div class="dropdown">
+            <div className="dropdown">
               <li
-                class="dropdown-toggle text-white text-decoration-none btn btn-warning custom-class ml-2 text-white my-1 round_test"
+                className="dropdown-toggle text-white text-decoration-none btn btn-warning custom-class ml-2 text-white my-1 round_test"
                 type="button"
                 id="dropdownMenu1"
                 data-toggle="dropdown"
@@ -61,31 +61,31 @@ export default function Navbar() {
                 Navigate To
               </li>
               <ul
-                class="dropdown-menu multi-level"
+                className="dropdown-menu multi-level"
                 role="menu"
                 aria-labelledby="dropdownMenu"
               >
-                <li class="dropdown-item">
-                  <a href="#title">Corcerned Areas</a>
+                <li className="dropdown-item">
+                  <a href="#title">Concern Areas</a>
                 </li>
-                <li class="dropdown-item">
+                <li className="dropdown-item">
                   <a href="/profile#profile">Profile</a>
                 </li>
-                <li class="dropdown-divider"></li>
-                <li class="dropdown-submenu">
-                  <a class="dropdown-item" tabindex="-1" href="#">
+                <li className="dropdown-divider"></li>
+                <li className="dropdown-submenu">
+                  <a className="dropdown-item" tabIndex="-1" href="#">
                     Archives
                   </a>
-                  <ul class="dropdown-menu">
-                    <li class="dropdown-item">
-                      <a tabindex="-1" href="#">
+                  <ul className="dropdown-menu">
+                    <li className="dropdown-item">
+                      <a tabIndex="-1" href="#">
                         Company
                       </a>
                     </li>
-                    <li class="dropdown-item">
+                    <li className="dropdown-item">
                       <a href="#">Young</a>
                     </li>
-                    <li class="dropdown-item">
+                    <li className="dropdown-item">
                       <a href="#">Old</a>
                     </li>
                   </ul>
@@ -119,7 +119,7 @@ export default function Navbar() {
             <li className="nav-item">
               <button
                 type="button"
-                class="text-white text-decoration-none btn btn-warning custom-class ml-2 text-white my-1 round_test"
+                className="text-white text-decoration-none btn btn-warning custom-class ml-2 text-white my-1 round_test"
                 data-toggle="modal"
                 data-target="#myModal"
               >
@@ -141,16 +141,16 @@ export default function Navbar() {
           </ul>
         </div>
       </nav>
-      <div class="modal fade" id="myModal">
-        <div class="modal-dialog modal-lg">
-          <div class="modal-content">
+      <div className="modal fade" id="myModal">
+        <div className="modal-dialog modal-lg">
+          <div className="modal-content">
             <div className="card p-3">
               <ReactPlayer
                 url="https://www.youtube.com/watch?v=ysz5S6PUM-U"
                 width="60vw"
                 controls="true"
               />
-              <button type="button" class="btn btn-danger" data-dismiss="modal">
+              <button type="button" className="btn btn-danger" data-dismiss="modal">
                 CLOSE
               </button>
             </div>

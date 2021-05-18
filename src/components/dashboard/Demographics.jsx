@@ -64,7 +64,7 @@ class Demographics extends Component {
             <div className="card-header">
               <h4 className="h4 text-center text-uppercase">
                 Statistics{" "}
-                <AiFillInfoCircle data-tip="Choose the group to display health statistics" class="mb-1" />
+                <AiFillInfoCircle data-tip="Choose the group to display health statistics" className="mb-1" />
               </h4>
             </div>
             <div className="card-body">
@@ -77,36 +77,36 @@ class Demographics extends Component {
               </p>
               <div className="row">
                 <div className="col-lg-3 d-flex justify-content-center">
-                  <label class="containers">
+                  <label className="containers">
                     <input
                       id="button1"
                       type="checkbox"
                       onChange={this.props.clickIcon}
                       checked={this.props.FirstThird}
                     />
-                    <span class="checkmarks"></span>
+                    <span className="checkmarks"></span>
                   </label>
                 </div>
                 <div className="col-lg-3 d-flex justify-content-center">
-                  <label class="containers">
+                  <label className="containers">
                     <input
                       id="button2"
                       type="checkbox"
                       onChange={this.props.clickIcon}
                       checked={this.props.SecondFourth}
                     />
-                    <span class="checkmarks"></span>
+                    <span className="checkmarks"></span>
                   </label>
                 </div>
                 <div className="col-lg-3 d-flex justify-content-center">
-                  <label class="containers">
+                  <label className="containers">
                     <input
                       id="button3"
                       type="checkbox"
                       onChange={this.props.clickIcon}
                       checked={this.props.all}
                     />
-                    <span class="checkmarks"></span>
+                    <span className="checkmarks"></span>
                   </label>
                 </div>
                 <div className="col-lg-3 d-flex justify-content-center">
@@ -147,7 +147,7 @@ class Demographics extends Component {
                     <div className="col">
                       <img src={Oldmale} alt="" />
                       <div className="demographics1">
-                        <label class="containerz">
+                        <label className="containerz">
                           <input
                             id="checkbox1"
                             type="checkbox"
@@ -155,7 +155,7 @@ class Demographics extends Component {
                             onChange={this.props.clickIcon}
                             checked={this.props.first}
                           />
-                          <span class="checkmark"></span>
+                          <span className="checkmark"></span>
                         </label>
                       </div>
                       <span>
@@ -165,7 +165,7 @@ class Demographics extends Component {
                     <div className="col">
                       <img src={Oldfemale} alt="" />
                       <div className="demographics1">
-                        <label class="containerz">
+                        <label className="containerz">
                           <input
                             id="checkbox2"
                             type="checkbox"
@@ -173,7 +173,7 @@ class Demographics extends Component {
                             onChange={this.props.clickIcon}
                             checked={this.props.second}
                           />
-                          <span class="checkmark"></span>
+                          <span className="checkmark"></span>
                         </label>
                       </div>
                       <span>
@@ -208,7 +208,7 @@ class Demographics extends Component {
                     <div className="col">
                       <img src={Youngmale} alt="" />
                       <div className="demographics1">
-                        <label class="containerz">
+                        <label className="containerz">
                           <input
                             id="checkbox3"
                             type="checkbox"
@@ -216,7 +216,7 @@ class Demographics extends Component {
                             onChange={this.props.clickIcon}
                             checked={this.props.third}
                           />
-                          <span class="checkmark"></span>
+                          <span className="checkmark"></span>
                         </label>
                       </div>
                       <span>
@@ -226,7 +226,7 @@ class Demographics extends Component {
                     <div className="col">
                       <img src={Youngfemale} alt="" />
                       <div className="demographics1 ">
-                        <label class="containerz">
+                        <label className="containerz">
                           <input
                             id="checkbox4"
                             type="checkbox"
@@ -234,7 +234,7 @@ class Demographics extends Component {
                             onChange={this.props.clickIcon}
                             checked={this.props.fourth}
                           />
-                          <span class="checkmark"></span>
+                          <span className="checkmark"></span>
                         </label>
                       </div>
                       <span>
