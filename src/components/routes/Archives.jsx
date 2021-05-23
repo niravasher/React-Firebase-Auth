@@ -47,7 +47,10 @@ The older employees in the company have a higher percentage-50% of being at risk
                       <td><span>Mark</span></td>
                     </tr>
                     <tr>
-                      <td>It was popularised in the 1960s with <span className="bg-warning phalf">abcde sdfieh</span> the release of Letraset sheets containing Lorem<span className="bg-dark phalf">Mark</span>Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including</td>
+                      <td>A shocking 109 out of the 116 employees in the company have a Vitamin D deficiency,
+104 employees have their Vitamin D values below the normal 30 ng/ml, while 5 employees have their values critically low.<br>
+The impact of either age or gender is statistically insignificant in the case of Vitamin D deficiency. Both males and females are equally deficient irrespective of their age.
+</td>
                       <td>It was popularised in the 1960s with <span className="bg-warning phalf">abcde sdfieh</span> the release of Letraset sheets containing Lorem<span className="bg-dark phalf">Mark</span>Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including</td>
                     </tr>
                   </tbody>
