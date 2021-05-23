@@ -22,12 +22,12 @@ class Archives extends Component {
                 <table className="table table-bordered table-hover bg-light table-responsive">
                   <thead>
                     <tr>
-                      <th colspan="2" className="text-center">Company <AiFillInfoCircle data-tip="hello world" className="mb-1" /></th>
+                      <th colspan="2" className="text-center">Company <AiFillInfoCircle data-tip="Health analysis of your company is below" className="mb-1" /></th>
                     </tr>
                   </thead>
                   <tbody>
                     <tr>
-                      <td><span className="bg-primary phalf">Change</span></td>
+                      <td><span className="bg-primary phalf">As a whole, the company employees have their Lipids, Blood Sugar and Vitamin D values out of range.</span></td>
                       <td><span>Mark</span></td>
                     </tr>
                     <tr>
