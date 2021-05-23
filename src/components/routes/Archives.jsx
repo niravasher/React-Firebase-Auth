@@ -27,7 +27,7 @@ class Archives extends Component {
                   </thead>
                   <tbody>
                     <tr>
-                      <td>As a whole, the company employees have their Lipids, Blood Sugar and Vitamin D values out of range.<br>
+                      <td> As a whole, the company employees have their Lipids, Blood Sugar and Vitamin D values out of range.<br>
       There are 96, out of 116 employees in the company with some Cholesterol values out of range.<br> 
 31 employees had their HDL values out of range. <br>
 42 employees had their LDL values higher than the recommended range.<br>
@@ -47,7 +47,7 @@ The older employees in the company have a higher percentage-50% of being at risk
                       <td><span>Mark</span></td>
                     </tr>
                     <tr>
-                      <td>A shocking 109 out of the 116 employees in the company have a Vitamin D deficiency,
+                      <td> A shocking 109 out of the 116 employees in the company have a Vitamin D deficiency,
 104 employees have their Vitamin D values below the normal 30 ng/ml, while 5 employees have their values critically low.<br>
 The impact of either age or gender is statistically insignificant in the case of Vitamin D deficiency. Both males and females are equally deficient irrespective of their age.
 </td>
@@ -63,12 +63,21 @@ The impact of either age or gender is statistically insignificant in the case of
                 <table className="table table-bordered table-hover bg-light">
                   <thead>
                     <tr>
-                      <th colSpan="2" className="text-center">All Male <AiFillInfoCircle data-tip="hello world" className="mb-1" /></th>
+                      <th colSpan="2" className="text-center">All Male Employees <AiFillInfoCircle data-tip="Health analysis of the male employees in your company" className="mb-1" /></th>
                     </tr>
                   </thead>
                   <tbody>
                     <tr>
-                      <td className="thfirst"><span>Mark</span></td>
+                      <td className="thfirst"><span> The male employees in the company have predominantly Lipids, Liver, Blood Sugar and Vitamin D values being out of range.<br>
+
+Out of the 65 male employees in the company, 56 male employees – 86% have their Lipids out of range. With 32 employees having a higher than normal LDL value.<br>
+
+53 out of the 65 male employees in the company have some or the other Liver parameter which is out of range, with 34 out of these 53 employees having a lower than normal Globulin level.<br>
+
+29 of the male employees are at a higher risk of being Diabetic. 25 employees have a higher than the normal value of 5.6% of HbA1c.<br>
+
+63 male employees, out of the 65 in the company suffer from a Vitamin D deficiency.<br>
+</span></td>
                       <td><span className="bg-primary phalf">Change</span></td>
                     </tr>
                     <tr>
@@ -86,12 +95,22 @@ The impact of either age or gender is statistically insignificant in the case of
                 <table className="table table-bordered table-hover bg-light">
                   <thead>
                     <tr>
-                      <th colspan="2" className="text-center">Young Female <AiFillInfoCircle data-tip="hello world" className="mb-1" /></th>
+                      <th colspan="2" className="text-center">All Female Employees <AiFillInfoCircle data-tip="Health analysis of the female employees in your company" className="mb-1" /></th>
                     </tr>
                   </thead>
                   <tbody className="bg-light">
                     <tr>
-                      <td className="thfirst"><span>to something</span></td>
+                      <td className="thfirst"><span>The female employees in the company have their Kidney, Thyroid, Vitamin D and Hemoglobin levels out of range.<br>
+
+Out of the 51 female employees in the company, 36 have some Kidney parameter which is out of range. The most common being Creatinine level low, below the recommended 0.6 mg/dl. 33 female employees had their Creatinine levels lower than normal.<br>
+
+20 of the female employees have their Thyroid levels which are off. The parameter which is most out of range is the Thyroid Stimulating Hormone (TSH), with 14 employees having high TSH.<br>
+
+46 of the 51 female employees in the company have a Vitamin D deficiency.<br>
+
+28 of the female employees are at risk of being Anemic, with 27 having low Iron levels and Transferrin Saturation levels.
+
+</span></td>
                       <td> dolor sit amet..", comes from a line in section 1.10.32.<span className="bg-primary phalf">else or</span>The standard chunk of Lorem Ipsum used since the 1500s is</td>
                     </tr>
                     <tr>
@@ -112,12 +131,20 @@ The impact of either age or gender is statistically insignificant in the case of
                 <table className="table table-bordered table-hover bg-light">
                   <thead>
                     <tr>
-                      <th colspan="2" className="text-center">Young Male <AiFillInfoCircle data-tip="hello world" className="mb-1" /></th>
+                      <th colspan="2" className="text-center">Younger Male Employees <AiFillInfoCircle data-tip="Health analysis of the younger male employees (<35 years) in your company" className="mb-1" /></th>
                     </tr>
                   </thead>
                   <tbody>
                     <tr>
-                      <td className="thfirst"><span>Mark</span></td>
+                      <td className="thfirst"><span>The younger male employees are seen to have their Lipids, Liver, Vitamin D and Vitamin B12 values out of range. <br>
+Out of the 44 young male employees in the company, 36 employees have their Lipids out of range. 36 of these employees have their Non-HDL Cholesterol higher than the recommended range. <br>
+
+36 out of the 44 younger male employees in the company have some or the other Liver parameter which is out of range. 22 of the young male employees have their Alanine amino Transferase - (ALT / SGPT) test value more than the recommended 52 U/L.<br>
+
+42 of the young males in the company have a Vitamin D deficiency.<br>
+
+9 young male employees suffer from a Vitamin B12 deficiency. Out of these 9, there are 2 employees who have a critically low value of Vitamin B12.<br>
+</span></td>
                       <td><span className="bg-primary phalf">Change</span></td>
                     </tr>
                     <tr>
@@ -135,12 +162,21 @@ The impact of either age or gender is statistically insignificant in the case of
                 <table className="table table-bordered table-hover bg-light">
                   <thead>
                     <tr>
-                      <th colspan="2" className="text-center">Young Female <AiFillInfoCircle data-tip="hello world" className="mb-1" /></th>
+                      <th colspan="2" className="text-center">Younger Female Employees<AiFillInfoCircle data-tip="Health analysis of the younger female employees (<35 years) in your company" className="mb-1" /></th>
                     </tr>
                   </thead>
                   <tbody className="bg-light">
                     <tr>
-                      <td className="thfirst"><span>to something</span></td>
+                      <td className="thfirst"><span>The younger female employees suffer from mostly their Kidney, Thyroid, Vitamin D and Hemoglobin levels being out of range. <br>
+
+Out of the 25 young female employees in the company, 19 have some Kidney parameter which is out of range. 18 employees have their creatinine level low, below the recommended 0.6 mg/dl. <br>
+
+10 of the young female employees have their thyroid levels which are off. The parameter which is most out of range is the Thyroid Stimulating Hormone (TSH), with 9 employees having high TSH. <br>
+
+23 out of the 25 young female employees in the company suffer from a Vitamin D deficiency. <br>
+
+15 of the young female employees are at risk of being anemic, with 13 out of these 15 having a lower than normal Transferrin Saturation.<br>
+</span></td>
                       <td> dolor sit amet..", comes from a line in section 1.10.32.<span className="bg-primary phalf">else or</span>The standard chunk of Lorem Ipsum used since the 1500s is</td>
                     </tr>
                     <tr>
@@ -161,12 +197,21 @@ The impact of either age or gender is statistically insignificant in the case of
                 <table className="table table-bordered table-hover bg-light">
                   <thead>
                     <tr>
-                      <th colspan="2" className="text-center">Old Male <AiFillInfoCircle data-tip="hello world" className="mb-1" /></th>
+                      <th colspan="2" className="text-center">Older Male Employees<AiFillInfoCircle data-tip="Health analysis of the older male employees (>35 years) in your company" className="mb-1" /></th>
                     </tr>
                   </thead>
                   <tbody className="bg-light">
                     <tr>
-                      <td className="thfirst"><span>Mark</span></td>
+                      <td className="thfirst"><span>The older male employees in the company have their Lipids, Liver, Blood Sugar and Vitamin D values being out of range.<br>
+
+Out of the 21 older male employees in the company, 20 employees have their Lipids out of range. All 20 of these employees have their Non-HDL Cholesterol higher than the recommended range. <br>
+
+17 out of the 21 older male employees in the company have some or the other Liver parameter which is out of range. The Globulin level of 11 employees is lower than the recommended 2.5 mg/dl.<br>
+
+16 of the older male employees are at risk of being Diabetic. 8 of these employees-50%, have their HbA1c out of range. <br>
+
+All 21 of the older male employees are Vitamin D deficient.<br>
+</span></td>
                       <td>Contrary to popular belief, Lorem Ipsum is not simply random text<span className="bg-danger phalf">Mark</span>It has roots in a piece of classical Latin literature from 45 BC</td>
                     </tr>
                     <tr>
@@ -184,12 +229,23 @@ The impact of either age or gender is statistically insignificant in the case of
                 <table className="table table-bordered table-hover bg-light">
                   <thead>
                     <tr>
-                      <th colspan="2" className="text-center">Old Female <AiFillInfoCircle data-tip="hello world" className="mb-1" /></th>
+                      <th colspan="2" className="text-center">Older Female Employees <AiFillInfoCircle data-tip="Health analysis of the older female employees (>35 years) in your company" className="mb-1" /></th>
                     </tr>
                   </thead>
                   <tbody className="bg-light">
                     <tr>
-                      <td className="thfirst"><span>Mark</span></td>
+                      <td className="thfirst"><span>The older female employees have mostly their Kidney, Lipids, Thyroid, Blood Sugar, Vitamin D and Hemoglobin levels which are out of range.<br>
+
+Out of the 26 older female employees in the company, 17 have some Kidney parameter which is out of range. All 17 employees have their creatinine level low, below the recommended 0.6 mg/dl.<br>
+
+24 older female employees have their Cholesterol levels off. Most have their Cholesterol:HDL Ratio out of range. 18 had their Cholesterol:HDL Ratio higher than normal.<br>
+
+10 of the older female employees have their thyroid levels which are off. The parameter which is most out of range is the Tri-Iodothyronine Total (TT3), with 8 employees having low TT3.<br>
+
+23 of the 26 older female employees in the company have a Vitamin D deficiency.<br>
+
+14 of the older female employees are at risk of being anemic, with all having low transferrin saturation levels.
+</span></td>
                       <td><span className="bg-warning phalf">Mark</span> The standard chunk of Lorem Ipsum used since the 1500s is</td>
                     </tr>
                     <tr>
