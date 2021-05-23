@@ -31,7 +31,13 @@ class Archives extends Component {
                       <td><span>Mark</span></td>
                     </tr>
                     <tr>
-                      <td>when an unknown printer took a galley of type and scrambled it to <span className="bg-info phalf">Some random title</span>make a type specimen book. It has survived not only five centuries</td>
+                      <td>There are 96, out of 116 employees in the company with some Cholesterol values out of range. 
+31 employees had their HDL values out of range. 
+42 employees had their LDL values higher than the recommended range.
+41 employees have their total Cholesterol higher than the recommended level of 200 mg/dl, while 1 employee has their total Cholesterol critically high, at a level of 406 mg/dl.
+There are 39 employees with their Triglycerides higher than the recommended value of 150 mg/dl. 
+56 out of the 65 - 86% male employees with their Cholesterol out of range, as compared to only 40 out of 51-80% female employees with their Cholesterol out of range.
+</td>
                       <td><span>Mark</span></td>
                     </tr>
                     <tr>
