@@ -27,7 +27,7 @@ class Archives extends Component {
                   </thead>
                   <tbody>
                     <tr>
-                      <td><span className="bg-primary phalf">As a whole, the company employees have their Lipids, Blood Sugar and Vitamin D values out of range.</span></td>
+                      <td>As a whole, the company employees have their Lipids, Blood Sugar and Vitamin D values out of range.</td>
                       <td><span>Mark</span></td>
                     </tr>
                     <tr>
