@@ -27,16 +27,22 @@ class Archives extends Component {
                   </thead>
                   <tbody>
                     <tr>
-                      <td>As a whole, the company employees have their Lipids, Blood Sugar and Vitamin D values out of range.</td>
-                      <td><span>Mark</span></td>
-                    </tr>
-                    <tr>
-                      <td>There are 96, out of 116 employees in the company with some Cholesterol values out of range.<br> 
+                      <td>As a whole, the company employees have their Lipids, Blood Sugar and Vitamin D values out of range.<br>
+      There are 96, out of 116 employees in the company with some Cholesterol values out of range.<br> 
 31 employees had their HDL values out of range. <br>
 42 employees had their LDL values higher than the recommended range.<br>
 41 employees have their total Cholesterol higher than the recommended level of 200 mg/dl, while 1 employee has their total Cholesterol critically high, at a level of 406 mg/dl.
 There are 39 employees with their Triglycerides higher than the recommended value of 150 mg/dl. <br>
 56 out of the 65 - 86% male employees with their Cholesterol out of range, as compared to only 40 out of 51-80% female employees with their Cholesterol out of range.
+      </td>
+                      <td><span>Mark</span></td>
+                    </tr>
+                    <tr>
+                      <td> There are 50 employees in the company who may be at risk of diabetes. 21% of all the tests relating to sugar levels of the employees are out of range.<br>
+43 employees had their HbA1c% higher than the recommended 5.6%, while 3 employees had their values critically high exceeding 10%.<br>
+18% employees had a higher than normal Mean Plasma Glucose level and 1 employee had a critically high value of 249 mg/dl.<br>
+The older employees in the company have a higher percentage-50% of being at risk of developing Diabetes, also 16 out of the 26 older female employees in the company are at a higher risk of developing Diabetes as compared to just 9 out of the 21 older male employees in the company.
+
 </td>
                       <td><span>Mark</span></td>
                     </tr>
