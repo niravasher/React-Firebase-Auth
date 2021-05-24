@@ -42,7 +42,18 @@ A shocking 109 out of the 116 employees in the company have a Vitamin D deficien
 104 employees have their Vitamin D values below the normal 30 ng/ml, while 5 employees have their values critically low.<br>
 The impact of either age or gender is statistically insignificant in the case of Vitamin D deficiency. Both males and females are equally deficient irrespective of their age.<br>
       </td>
-                      <td><span>Mark</span></td>
+                      <td>HDL is a "good" cholesterol as it removes fat from your blood to liver, thus high HDL cholesterol ensures that your heart disease risk is less.<br>
+      The major causes of having lower HDL cholesterol values are poor diet, smoking and sedentary lifestyle and genetics.<br>
+      LDL is the "bad" cholesterol, meaning fat which deposits inside blood vessels and causes heart diseases.<br>
+      Causes of high LDL levels are - Diet, Weight, Physical Activity, Smoking and Genetics.<br>
+      High cholesterol is bad for your heart, as too much of cholesterol combines with other substances to form plaque, which causes obstruction in the arteries (vessels that carry oxygen-rich blood from heart to all the parts of your body).<br>
+      Hight Total Cholesterol values are caused by inactivity, obesity and an unhealthy diet.<br>
+      Diabetes panel is used to check how much glucose/ sugar is there in your blood. Too much blood glucose might indicate diabetes.<br>
+      Diabetes affects the body’s ability to produce or use insulin, a hormone that allows the body to turn glucose (sugar) into energy.<br>
+     The HbA1c(Glycated Haemoglobin) test measures how much glucose is bound to hemoglobin. Red blood cells live for about 3 months, so the test shows the average level of glucose in your blood for the past 3 months.  
+      One of the ways to control and reduce your HbA1c level - is to change your diet. Generally, foods that are high in carbohydrates increase your blood sugar signicantly. Also, foods that are high in fiber keep your glucose level in check. Additionally, keeping your portion sizes small could prevent sharp rises in your blood sugar.<br>
+      Known as the "sunshine vitamin", Vitamin D is produced by your skin when exposed to sunlight. Vitamin D is essential for strong bones - it helps your body use calcium from the diet. Thus, low vitamin D increases the chances of fracture and may also increase the chances of diabetes and heart disease. Women above the age of 50 should be cautious of Vitamin D deciency because the chances of osteoporosis are very high for such women. (Osteoporosis is a "silent disease" - it leads to bone fracture and there are no symptoms in the early days.)<br>  
+        </td>
                     </tr>
                     <tr>
                       <td> To delete
@@ -80,7 +91,13 @@ Out of the 65 male employees in the company, 56 male employees – 86% have thei
 
 63 male employees, out of the 65 in the company suffer from a Vitamin D deficiency.<br>
 </span></td>
-                      <td><span className="bg-primary phalf">Change</span></td>
+                      <td><span className="bg-primary phalf">LDL is the "bad" cholesterol, meaning fat which deposits inside blood vessels and causes heart diseases.<br>
+      Causes of high LDL levels are - Diet, Weight, Physical Activity, Smoking and Genetics.<br>
+      Globulins are a group of proteins in the blood. They are made in your liver by the immune system. Globulins play an important role in liver function, blood clotting, and fighting infection.<br>
+      Low globulin levels can be a sign of liver or kidney disease. High levels may indicate infection, inflammatory disease or immune disorders. High globulin levels may also indicate certain types of cancer.<br>
+      The HbA1c(Glycated Haemoglobin) test measures how much glucose is bound to hemoglobin. Red blood cells live for about 3 months, so the test shows the average level of glucose in your blood for the past 3 months.  
+      One of the ways to control and reduce your HbA1c level - is to change your diet. Generally, foods that are high in carbohydrates increase your blood sugar signicantly. Also, foods that are high in fiber keep your glucose level in check. Additionally, keeping your portion sizes small could prevent sharp rises in your blood sugar.<br>
+      Known as the "sunshine vitamin", Vitamin D is produced by your skin when exposed to sunlight. Vitamin D is essential for strong bones - it helps your body use calcium from the diet. Thus, low vitamin D increases the chances of fracture and may also increase the chances of diabetes and heart disease.<br> </span></td>
                     </tr>
                     <tr>
                       <td className="thfirst"><span>Some random title</span></td>
@@ -110,10 +127,20 @@ Out of the 51 female employees in the company, 36 have some Kidney parameter whi
 
 46 of the 51 female employees in the company have a Vitamin D deficiency.<br>
 
-28 of the female employees are at risk of being Anemic, with 27 having low Iron levels and Transferrin Saturation levels.
+28 of the female employees are at risk of being Anemic, with 27 having low Transferrin Saturation levels.
 
 </span></td>
-                      <td> dolor sit amet..", comes from a line in section 1.10.32.<span className="bg-primary phalf">else or</span>The standard chunk of Lorem Ipsum used since the 1500s is</td>
+                      <td>Kidneys filter blood of your body to remove waste products & excess fluids. These waste products are produced by the breakdown of proteins (present in food, muscle & other cells) to generate energy. Most kidney problems happen because of high blood pressure or diabetes.<br>
+                          Creatinine is a waste product that your kidneys regularly remove from your body. A high level of creatinine in your blood simply means your kidneys are not functioning properly.<br>
+                          Causes of low Creatnine levels are low muscle mass, liver problems, diet, pregnancy or illness. <br> 
+                          Thyroid gland secretes chemicals (hormones) in the blood. These chemicals help in metabolism (utilization of food and energy), growth and development. It is important for regulation of body temperature, mood, body weight and muscle strength and regulation of body weight.<br>
+                          "TSH(Thyroid Stimulating Hormone) maintains the level of T3 and T4-the two hormones secreted by Thyroid gland. When T3 and T4 are low, TSH stimulates Thyroid gland to secrete more T3, T4 and vice-versa."<br>
+                            The major reasons for high TSH are surgical removal of the thyroid,radiation therapy to treat cancer thyroid,iodine deficiency and pregnancy. <br>
+                            Known as the "sunshine vitamin", Vitamin D is produced by your skin when exposed to sunlight. Vitamin D is essential for strong bones - it helps your body use calcium from the diet. Thus, low vitamin D increases the chances of fracture and may also increase the chances of diabetes and heart disease.<br>
+                             The major reasons for Vitamin D deficiency are either not being exposed to adequate sunlight or not consuming adequate Vitamin D rich foods.
+                               Anemia is the condition where body has less red blood cells (RBCs) or RBCs do not have enough hemoglobin. Hemoglobin is the protein present in RBCs that help carry oxygen to the body tissues.<br>
+                               Transferrin Saturation is the percentage of transferrin occupied with iron, usually a value of less than 20% indicates a deficiency. <br>
+                               The main cause of reduced percentage is due to an iron deficiency or a prolonged infection. <br>   </td>
                     </tr>
                     <tr>
                       <td className="thfirst"><span>Some random title</span></td>
@@ -147,7 +174,15 @@ Out of the 44 young male employees in the company, 36 employees have their Lipid
 
 9 young male employees suffer from a Vitamin B12 deficiency. Out of these 9, there are 2 employees who have a critically low value of Vitamin B12.<br>
 </span></td>
-                      <td><span className="bg-primary phalf">Change</span></td>
+                      <td><span className="bg-primary phalf">Non-HDL cholesterol is basically your HDL number subtracted from your total cholesterol number. So, in other words, it's all the “bad” types of cholesterol. Ideally, you want this number to be lower rather than higher.<br>
+                                                             Causes of high Non- HDL levels are - Diet, Weight, Physical Activity, Smoking and Genetics.<br>
+                                                             SGPT is mostly concentrated in your liver and is a vital indicator of your liver's health.<br>
+                                                             Causes of a high SGPT level are Drinking Alcohol,Viral hepatitis(inflammation of liver),Diabetes,Obesity,Gallbladder inflammation (cholecystitis).<br>
+                                                             Known as the "sunshine vitamin", Vitamin D is produced by your skin when exposed to sunlight. Vitamin D is essential for strong bones - it helps your body use calcium from the diet. Thus, low vitamin D increases the chances of fracture and may also increase the chances of diabetes and heart disease.<br>
+                                                             The major reasons for Vitamin D deficiency are either not being exposed to adequate sunlight or not consuming adequate Vitamin D rich foods. <br>
+                                                             Vitamin B12 is required for making RBCs, for DNA synthesis,proper brain and nerves function. Your body can store it for up to 4 years. Unlike other water-soluble vitamins, Vitamin B12 is stored in your liver.Any excess or unwanted Vitamin B12 is excreted in the urine.<br>
+                                                              Causes of a Vitamin B12 deficiency are immune system disorders and certain types of Anemia.
+                                                              </span></td>
                     </tr>
                     <tr>
                       <td className="thfirst"><span>Some random title</span></td>
@@ -179,8 +214,15 @@ Out of the 25 young female employees in the company, 19 have some Kidney paramet
 
 15 of the young female employees are at risk of being anemic, with 13 out of these 15 having a lower than normal Transferrin Saturation.<br>
 </span></td>
-                      <td> dolor sit amet..", comes from a line in section 1.10.32.<span className="bg-primary phalf">else or</span>The standard chunk of Lorem Ipsum used since the 1500s is</td>
-                    </tr>
+                      <td> Creatinine is a waste product that your kidneys regularly remove from your body. A high level of creatinine in your blood simply means your kidneys are not functioning properly.<br>
+                          Causes of low Creatnine levels are low muscle mass, liver problems, diet, pregnancy or illness. <br>
+                            "TSH(Thyroid Stimulating Hormone) maintains the level of T3 and T4-the two hormones secreted by Thyroid gland. When T3 and T4 are low, TSH stimulates Thyroid gland to secrete more T3, T4 and vice-versa."<br>
+                            The major reasons for high TSH are surgical removal of the thyroid,radiation therapy to treat cancer thyroid,iodine deficiency and pregnancy.<br></td>
+                            Known as the "sunshine vitamin", Vitamin D is produced by your skin when exposed to sunlight. Vitamin D is essential for strong bones - it helps your body use calcium from the diet. Thus, low vitamin D increases the chances of fracture and may also increase the chances of diabetes and heart disease.<br>
+                            The major reasons for Vitamin D deficiency are either not being exposed to adequate sunlight or not consuming adequate Vitamin D rich foods.<br>
+                            Transferrin Saturation is the percentage of transferrin occupied with iron, usually a value of less than 20% indicates a deficiency. <br>
+                               The main cause of reduced percentage is due to an iron deficiency or a prolonged infection. <br>  
+    </tr>
                     <tr>
                       <td className="thfirst"><span>Some random title</span></td>
                       <td>Lorem ipsum data <span className="bg-success phalf">Some random title</span> outside of the span is existing correctly, <span className="bg-info phalf">lets see how it</span> looks when loaded in a browser</td>
@@ -214,7 +256,15 @@ Out of the 21 older male employees in the company, 20 employees have their Lipid
 
 All 21 of the older male employees are Vitamin D deficient.<br>
 </span></td>
-                      <td>Contrary to popular belief, Lorem Ipsum is not simply random text<span className="bg-danger phalf">Mark</span>It has roots in a piece of classical Latin literature from 45 BC</td>
+                      <td>Non-HDL cholesterol is basically your HDL number subtracted from your total cholesterol number. So, in other words, it's all the “bad” types of cholesterol. Ideally, you want this number to be lower rather than higher.<br>
+                          Causes of high Non- HDL levels are - Diet, Weight, Physical Activity, Smoking and Genetics.<br>
+                          SGPT is mostly concentrated in your liver and is a vital indicator of your liver's health.<br>
+                          Causes of a high SGPT level are Drinking Alcohol,Viral hepatitis(inflammation of liver),Diabetes,Obesity,Gallbladder inflammation (cholecystitis).<br> 
+                          The HbA1c(Glycated Haemoglobin) test measures how much glucose is bound to hemoglobin. Red blood cells live for about 3 months, so the test shows the average level of glucose in your blood for the past 3 months.<br>  
+                          One of the ways to control and reduce your HbA1c level - is to change your diet. Generally, foods that are high in carbohydrates increase your blood sugar signicantly. Also, foods that are high in fiber keep your glucose level in check. Additionally, keeping your portion sizes small could prevent sharp rises in your blood sugar.<br>
+                          Known as the "sunshine vitamin", Vitamin D is produced by your skin when exposed to sunlight. Vitamin D is essential for strong bones - it helps your body use calcium from the diet. Thus, low vitamin D increases the chances of fracture and may also increase the chances of diabetes and heart disease.<br>
+                           The major reasons for Vitamin D deficiency are either not being exposed to adequate sunlight or not consuming adequate Vitamin D rich foods.<br>
+                            </td>
                     </tr>
                     <tr>
                       <td className="thfirst"><span>Some random title</span></td>
@@ -248,7 +298,17 @@ Out of the 26 older female employees in the company, 17 have some Kidney paramet
 
 14 of the older female employees are at risk of being anemic, with all having low transferrin saturation levels.
 </span></td>
-                      <td><span className="bg-warning phalf">Mark</span> The standard chunk of Lorem Ipsum used since the 1500s is</td>
+                      <td>Creatinine is a waste product that your kidneys regularly remove from your body. A high level of creatinine in your blood simply means your kidneys are not functioning properly.<br>
+                          Causes of low Creatnine levels are low muscle mass, liver problems, diet, pregnancy or illness.<br>
+                            Higher the cholesterol:HDL ratio, worse it is for your heart. The ideal cholesterol:HDL ratio is 3.5. You should aim to keep your ratio below 5.<br>
+                            The main reason for a higher ratio is diet and lack of physical activity.<br>
+                            TT3(Tri iodo thyronine) is an active hormone secreted by Thyroid gland. <br>
+                            Major causes of a low levl of TT3 are Hypofunction of Thyroid gland,Starvation and long term illness. <br>
+                              Known as the "sunshine vitamin", Vitamin D is produced by your skin when exposed to sunlight. Vitamin D is essential for strong bones - it helps your body use calcium from the diet. Thus, low vitamin D increases the chances of fracture and may also increase the chances of diabetes and heart disease.<br>
+                           The major reasons for Vitamin D deficiency are either not being exposed to adequate sunlight or not consuming adequate Vitamin D rich foods.<br>
+                             Transferrin Saturation is the percentage of transferrin occupied with iron, usually a value of less than 20% indicates a deficiency. <br>
+                               The main cause of reduced percentage is due to an iron deficiency or a prolonged infection.<br>
+                              </td>
                     </tr>
                     <tr>
                       <td className="thfirst"><span>Some random title</span></td>
